@@ -4,13 +4,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mein Portfolio</title>
+        <title>Maik Brückner</title>
         <link href="https://fonts.bunny.net/css?family=inter:400,700">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
         <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-        <!--script src="https://kit.fontawesome.com/0b40067d86.js" crossorigin="anonymous"></script-->
 
         <link href="css/colors.css" rel="stylesheet">
         <link href="css/animations.css" rel="stylesheet">
@@ -28,9 +29,21 @@
                 <!-- Navmenu -->
                 <nav id="navmenu" class="navmenu">
                     <ul>
-                        <li><a class="active" href="#home">Startseite<br></a></li>
+                        <li><a href="#home" class="active">Startseite<br></a></li>
                         <li><a href="#about">Über mich</a></li>
-                        <li><a href="#projects">Projekte</a></li>
+                        <li><a href="#resume">Lebenslauf</a></li>
+                        <li class="dropdown"><a href="#projects"><span>Projekte</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="#projects" data-id="project-grainlab">Grainlab – Weizensortierung mit KI</a></li>
+                                <li><a href="#projects" data-id="project-matrixkit">Matrixkit LED-Scheinwerfer</a></li>
+                                <li><a href="#projects" data-id="project-fuellstand">Füllstandüberwachung</a></li>
+                                <li><a href="#projects" data-id="project-biled">BiLED – LED-Scheinwerfer Justage</a></li>
+                                <li><a href="#projects" data-id="project-matrixkitv2">Matrixkit V2</a></li>
+                                <li><a href="#projects" data-id="project-pressenumbau">Pressenumbau</a></li>
+                                <li><a href="#projects" data-id="project-zeiterfassung">Zeiterfassung</a></li>
+                                <li><a href="#projects" data-id="project-datagrabber">DataGrabber</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#contact">Kontakt</a></li>
                         <li><a href="#notice">Impressum</a></li>
                     </ul>
@@ -193,12 +206,17 @@
                 </div>
             </section>
 
-            <!-- Projects Section -->
-            <section id="projects" class="section">
-                <div class="container">
-                    <h1>Projekte</h1>
-                    <p> den Abschnitt 'Projekte'.</p>
+            <!-- Resume Section -->
+            <section id="resume" class="section">
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>Lebenslauf</h2>
+                    <p>Neuen Abschnitt hier einfügen.</p>
                 </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="projects section accent-background">
+                <div id="projectContainer" class="container projects-text" data-aos="fade-up"></div>
             </section>
 
             <!-- Contact Section -->
@@ -304,6 +322,8 @@
         <script src="js/typed.js/typed.umd.js"></script>
         <script src="js/validate.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/printprojects.js"></script>
+        <script src="https://kit.fontawesome.com/0b40067d86.js" crossorigin="anonymous"></script>
     </body>
 
 </html>

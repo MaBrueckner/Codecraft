@@ -62,6 +62,10 @@ h6 {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
+.typed {
+  color: var(--secondary-color);
+}
+
 /* Desktop Navigation */
 @media (min-width: 1200px) {
   .navmenu {
@@ -119,7 +123,7 @@ h6 {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: var(--nav-hover-color);
+    background-color: var(--secondary-color);
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -135,7 +139,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-hover-color);
+    color: var(--secondary-color);
   }
 
   .navmenu .dropdown ul {
@@ -172,7 +176,7 @@ h6 {
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
   .navmenu .dropdown ul li:hover>a {
-    color: var(--nav-dropdown-hover-color);
+    color: var(--secondary-color);
   }
 
   .navmenu .dropdown:hover>ul {
@@ -511,6 +515,41 @@ section,
 
 .about img {
     max-height: 156px;
+}
+
+/*--------------------------------------------------------------
+# Projects Section
+--------------------------------------------------------------*/
+.projects .container {
+  background-color: var(--surface-color);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.projects .projects-text h4 {
+  font-size: 28px;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.projects .projects-text h4:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 64px;
+  height: 3px;
+  background: var(--accent-color);
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.projects .projects-text p {
+  font-size: 18px;
+  text-align: left;
+  color: var(--accent-color);
 }
 
 /*--------------------------------------------------------------
