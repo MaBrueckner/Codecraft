@@ -1,0 +1,11 @@
+:root {
+    --aos-duration: 1000ms;
+    --aos-easing: ease-in-out;
+    --max-width: 768px;
+}
+
+@media screen and (max-width: var(--max-width)) {
+    [data-aos-delay] {
+        transition-delay: 0 !important;
+    }
+}
