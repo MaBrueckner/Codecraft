@@ -41,7 +41,7 @@ div.timeline-container {
 }
 
 div.item {
-  display: ruby;
+  display: flex;
   flex: auto;
   overflow-y: auto;
   padding: 0rem 1rem 0rem 1rem;
@@ -90,9 +90,6 @@ div.item {
   position: relative;
   padding-bottom: 1.25em;
   margin-bottom: 2.2em;
-}
-#timeline section.year section h4:first-child{
-  margin-top: 1em;
 }
 #timeline section.year section h4 {
   position: absolute;
