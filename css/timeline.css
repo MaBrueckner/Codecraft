@@ -95,11 +95,11 @@ div.item {
   position: absolute;
   bottom: 0;
   font-size: 0.9em;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.2em;
   margin: 0;
   padding: 0 0 0 89px;
-  color: var(--primary-color) !important;
+  color: #163c5fff !important;
 }
 @media (min-width: 62em) {
   #timeline section.year section h4 {
