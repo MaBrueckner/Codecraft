@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="1288"
+   width="1496"
    height="256"
-   viewBox="0 0 340.78333 67.73333"
+   viewBox="0 0 395.81597 67.73333"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -23,13 +23,13 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
      inkscape:document-units="px"
-     inkscape:zoom="1.0015858"
-     inkscape:cx="521.67273"
-     inkscape:cy="346.94981"
+     inkscape:zoom="0.70822811"
+     inkscape:cx="655.15615"
+     inkscape:cy="366.40737"
      inkscape:window-width="1920"
-     inkscape:window-height="1013"
+     inkscape:window-height="991"
      inkscape:window-x="2391"
-     inkscape:window-y="752"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer2"
      showgrid="false" /><defs
@@ -37,7 +37,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Text"
-     transform="matrix(1.1093552,0,0,1.1093552,117.63894,-99.213897)"><text
+     transform="matrix(1.1093552,0,0,1.1093552,144.84787,-97.342799)"><text
        xml:space="preserve"
        style="font-weight:bold;font-size:37.2412px;line-height:0.1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:none;fill:#153d60;fill-opacity:1;stroke-width:0.263914;stroke-linecap:round;stroke-opacity:0.345161"
        x="98.050995"
@@ -60,8 +60,8 @@
          sodipodi:role="line"
          id="tspan2"
          style="font-size:37.2412px;fill:#153d60;fill-opacity:1;stroke-width:0.263914"
-         x="0"
-         y="0">BRUCKNER</tspan></text><text
+         x="98.050995"
+         y="127.70827">BRUCKNER</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:26.6256px;line-height:0.1;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#1caca4;fill-opacity:1;stroke-width:0.285888;stroke-linecap:round;stroke-opacity:0.345161"
        x="89.887001"

@@ -96,7 +96,7 @@ h6 {
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-color);
-    font-size: 20px;
+    font-size: 15px;
     padding: 0 2px;
     font-family: var(--nav-font);
     font-weight: 400;
@@ -164,7 +164,7 @@ h6 {
 
   .navmenu .dropdown ul a {
     padding: 10px 20px;
-    font-size: 15px;
+    font-size: 12px;
     text-transform: none;
     color: var(--nav-dropdown-color);
   }
