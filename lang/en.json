@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "resume": "Resume",
+    "projects": "Projects",
+    "contact": "Contact",
+    "imprint": "Imprint"
+  },
+  "home": {
+    "title": "Welcome to Codecraft! I'm Maik Brückner",
+    "subtitle": "Creative software solutions from Suhl",
+    "text": "UI/UX designer, developer of custom software, automation expert, robotics enthusiast, freelancer for your project"
+  },
+  "about": {
+    "title": "About Me",
+    "profile": "Profile",
+    "description": "Full Stack Developer",
+    "text1": "I have been working as a professional software developer for over a decade – but my passion for technology began much earlier: At the age of 15, I programmed my first applications on the C64, later with Turbo Pascal on a 386. Today, I develop modern software solutions for complex automation processes – with a broad technological spectrum ranging from C#, WPF, and Blazor to LabVIEW and PLC programming in the TIA Portal.",
+    "text2": "My focus is on special-purpose machine construction, particularly in process automation. I handle both the development of individual components and the complete implementation of entire cells – from PLC and HMI to data integration with ERP systems. My versatility sets me apart: while others specialize, I connect worlds – whether it's microcontrollers in C, OPC UA, SQL databases, or modern UI/UX concepts. I find a solution for every problem – technology-agnostic, structured, and solution-oriented.",
+    "text3": "I am currently looking for exciting remote projects that I can implement flexibly alongside my permanent position – whether as support or as independent development. I work reliably, with quick onboarding and a clear focus on customer value. If you're looking for a developer who not only writes code but also understands and thinks through processes, I look forward to hearing from you."
+  },
+  "resume": {
+    "title": "Resume",
+    "subtitle": "My professional career at a glance"
+  },
+  "projects": {
+    "title": "My Projects",
+    "project1": {
+      "title": "Project Alpha",
+      "description": "An innovative tool for code analysis."
+    },
+    "project2": {
+      "title": "Project Beta",
+      "description": "A platform for data visualization."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's find out together how I can support you in your project. I will get back to you as soon as possible.",
+    "location": "Address",
+    "email": "Email us",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email address",
+    "subjectPlaceholder": "Subject",
+    "messagePlaceholder": "Your message",
+    "submitButton": "Send message",
+    "successMessage": "Thank you for your message! I will get back to you as soon as possible.",
+    "errorMessage": "An error occurred while sending the message. Please try again later.",
+    "loadingMessage": "Loading..."
+  },
+  "imprint": {
+    "title": "Imprint",
+    "contact": "Contact",
+    "company": "Brückner Codecraft",
+    "owner": "Maik Brückner",
+    "address": "Friesenstraße 10<br>98529 Suhl<br>Germany",
+    "email": "info@bruckner-codecraft.com",
+    "law1": "Information according to § 5 DDG (Digital Services Act)",
+    "law2": "Responsible for content according to § 18 Abs. 2 MStV",
+    "law3": "According to § 19 UStG, no VAT is charged and therefore not shown.",
+    "taxId": "VAT number: 123/456/78901",
+    "taxDisclaimer": "Note on VAT",
+    "workField": "Professional Activity",
+    "workFieldDescription": "Freelance software developer.<br>This website is solely for presenting my services and for contact purposes.<br>No goods or products are sold."
+  },
+  "footer": {
+    "copyright": "© 2025 Brückner Codecraft"
+  }
+}

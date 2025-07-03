@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "resume": "Lebenslauf",
+    "projects": "Projekte",
+    "contact": "Kontakt",
+    "imprint": "Impressum"
+  },
+  "home": {
+    "title": "Willkommen bei Codecraft! Ich bin Maik Brückner",
+    "subtitle": "Kreative Softwarelösungen aus Suhl",
+    "text": "UI/UX Designer, Entwickler maßgeschneiderter Software, Automatisierungsexperte, Robotik-Enthusiast, Freelancer für Ihr Projekt"
+  },
+  "about": {
+    "title": "Über mich",
+    "profile": "Profil",
+    "description": "Full Stack Entwickler",
+    "text1": "Seit über einem Jahrzehnt bin ich als Softwareentwickler im professionellen Umfeld tätig – meine Leidenschaft für Technik begann jedoch schon viel früher: Mit 15 Jahren programmierte ich erste Anwendungen auf dem C64, später mit Turbo Pascal auf einem 386er. Heute entwickle ich moderne Softwarelösungen für komplexe Automatisierungsprozesse – mit einem breiten technologischen Spektrum, das von C#, WPF und Blazor über LabVIEW bis hin zu SPS-Programmierung im TIA-Portal reicht.",
+    "text2": "Mein Schwerpunkt liegt im Sondermaschinenbau, insbesondere in der Prozessautomatisierung. Ich übernehme sowohl die Entwicklung einzelner Komponenten als auch die vollständige Umsetzung ganzer Zellen – von der SPS über HMI bis zur Datenanbindung an ERP-Systeme. Dabei zeichnet mich meine Vielseitigkeit aus: Wo andere sich spezialisieren, verbinde ich Welten – ob Mikrocontroller in C, OPC UA, SQL-Datenbanken oder moderne UI/UX-Konzepte. Für jedes Problem finde ich eine Lösung – technologieoffen, strukturiert und lösungsorientiert.",
+    "text3": "Aktuell suche ich spannende Remote-Projekte, die ich flexibel neben meiner Festanstellung realisieren kann – sei es als Zuarbeit oder als eigenständige Entwicklung. Ich arbeite zuverlässig, mit schneller Einarbeitung und einem klaren Fokus auf den Kundennutzen. Wenn Sie einen Entwickler suchen, der nicht nur Code schreibt, sondern Prozesse versteht und mitdenkt, freue ich mich auf Ihre Anfrage."
+  },
+  "resume": {
+    "title": "Lebenslauf",
+    "subtitle": "Mein beruflicher Werdegang im Überblick"
+  },
+  "projects": {
+    "title": "Meine Projekte",
+    "project1": {
+      "title": "Projekt Alpha",
+      "description": "Ein innovatives Tool zur Codeanalyse."
+    },
+    "project2": {
+      "title": "Projekt Beta",
+      "description": "Eine Plattform zur Visualisierung von Daten."
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Lassen Sie uns gemeinsam herausfinden, wie ich Sie bei Ihrem Vorhaben unterstützen kann. Ich melde mich schnellstmöglich zurück.",
+    "location": "Anschrift",
+    "email": "E-Mail an uns",
+    "namePlaceholder": "Ihr Name",
+    "emailPlaceholder": "Ihre E-Mail-Adresse",
+    "subjectPlaceholder": "Betreff",
+    "messagePlaceholder": "Ihre Nachricht",
+    "submitButton": "Nachricht senden",
+    "successMessage": "Vielen Dank für Ihre Nachricht! Ich werde mich so schnell wie möglich bei Ihnen melden.",
+    "errorMessage": "Beim Senden der Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.",
+    "loadingMessage": "Laden..."
+  },
+  "imprint": {
+    "title": "Impressum",
+    "contact":"Kontakt",
+    "company": "Brückner Codecraft",
+    "owner": "Maik Brückner",
+    "address": "Friesenstraße 10<br>98529 Suhl<br>Deutschland",
+    "email": "info@bruckner-codecraft.com",
+    "law1": "Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz)",
+    "law2": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV",
+    "law3": "Gemäß § 19 UStG wird keine Umsatzsteuer erhoben und daher auch nicht ausgewiesen.",
+    "taxId": "Umsatzsteuernummer: 123/456/78901",
+    "taxDisclaimer": "Hinweis zur Umsatzsteuer",
+    "workField": "Berufliche Tätigkeit",
+    "workFieldDescription": "Freiberuflicher Softwareentwickler.<br>Die Website dient ausschließlich der Präsentation meiner Dienstleistungen und der Kontaktaufnahme.<br>Es erfolgt kein Verkauf von Waren oder Produkten."
+  },
+  "footer": {
+    "copyright": "© 2025 Brückner Codecraft"
+  }
+}
