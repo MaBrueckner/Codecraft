@@ -1,0 +1,209 @@
+[
+    {
+        "year": "2004",
+        "entries": [
+            {
+                "title": "Abitur & Wehrdienst",
+                "category": "edu",
+                "icon": "fas fa-school",
+                "details": [
+                    "Allgemeine Hochschulreife, Berufliche Schulen des Unstrut-Hainich-Kreises, Mühlhausen (Thüringen)",
+                    "Grundwehrdienst, 6. Artillerieaufklärungsbataillon 131, Neustadt (Hessen)"
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2005",
+        "entries": [
+            {
+                "title": "Studium der Informatik",
+                "category": "edu",
+                "icon": "fas fa-university",
+                "details": [
+                    "Technische Universität Ilmenau",
+                    "Studienrichtung: Informatik (ohne Abschluss)"
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2008",
+        "entries": [
+            {
+                "title": "Berufsausbildung",
+                "category": "edu",
+                "icon": "fas fa-graduation-cap",
+                "details": [
+                    "Ausbildungsbeginn zum Industriemechaniker, Fachrichtung Fertigungstechnik",
+                    "Schliess- und Sicherungssysteme GmbH, Mühlhausen"
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2012",
+        "entries": [
+            {
+                "title": "Ausbildungsabschluss & Berufseinstieg",
+                "category": "job",
+                "icon": "fas fa-briefcase",
+                "details": [
+                    "Abschluss der Ausbildung zum Industriemechaniker, Fachrichtung Fertigungstechnik",
+                    "Berufseinstieg als Industriemechaniker bei Schliess- und Sicherungssysteme GmbH, Mühlhausen"
+                ]
+            },
+            {
+                "title": "Weiterbildung zum Maschinenbautechniker",
+                "category": "edu",
+                "icon": "fas fa-graduation-cap",
+                "details": [
+                    "Beginn des Technikerstudiums an der Staatlichen Fachschule für Technik, Mühlhausen",
+                    "Fachrichtung: Maschinenbautechnik – Fertigungstechnik"
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2014",
+        "entries": [
+            {
+                "title": "LabVIEW-Zertifizierung",
+                "category": "training",
+                "icon": "fas fa-certificate",
+                "details": [
+                    "Teilnahme an den Kursen „LabVIEW Core 1 & 2“ bei National Instruments, München"
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2015",
+        "entries": [
+            {
+                "title": "Berufseinstieg in die Softwareentwicklung",
+                "category": "job",
+                "icon": "fas fa-laptop-code",
+                "details": [
+                    "Start als Junior Softwareentwickler bei MRB Automation GmbH, Ilmenau",
+                    "Entwicklung von Automatisierungslösungen mit LabVIEW",
+                    "Funktionsbibliotheken in C# (.NET, Visual Studio)",
+                    "SPS-Programmierung mit Siemens TIA Portal",
+                    "Roboterprogrammierung (ABB, Stäubli)",
+                    "Versionsverwaltung mit TortoiseSVN, Ticketsystem RedMine"
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2016",
+        "entries": [
+            {
+                "title": "Technikerabschluss",
+                "category": "edu",
+                "icon": "fas fa-graduation-cap",
+                "details": [
+                    "Abschluss als staatlich geprüfter Maschinenbautechniker, Fachrichtung Fertigungstechnik",
+                    "Abschlussarbeit: Entwicklung und Programmierung eines Halbautomaten zum Einpressen von Kugeln"
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2018",
+        "entries": [
+            {
+                "title": "Roboterschulung",
+                "category": "training",
+                "icon": "fas fa-robot",
+                "details": [
+                    "Teilnahme an der Stäubli VAL3-Programmierschulung (Version 8.x)",
+                    "Ort: Stäubli Schulungszentrum, Bayreuth"
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2019",
+        "entries": [
+            {
+                "title": "SPS-Weiterbildung",
+                "category": "training",
+                "icon": "fas fa-chalkboard-teacher",
+                "details": [
+                    "Grollmus-Schulung: Programmieren mit GRAPH im TIA Portal",
+                    "Inhouse-Schulung"
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2020",
+        "entries": [
+            {
+                "title": "Roboterschulung",
+                "category": "training",
+                "icon": "fas fa-robot",
+                "details": [
+                    "ABB IRC5-UMS-RF Umsteigerkurs für Roboterfachleute, ABB Schulungszentrum Friedberg"
+                ]
+            },
+            {
+                "title": "Softwareentwickler bei Lasco Umformtechnik GmbH",
+                "category": "job",
+                "icon": "fas fa-code",
+                "details": [
+                    "Entwicklung von Desktop-Anwendungen mit WPF und C# (.NET, Visual Studio)",
+                    "Erstellung und Pflege von Funktionsbibliotheken in C#",
+                    "SPS-Programmierung mit Siemens TIA Portal",
+                    "Roboterprogrammierung (ABB, Stäubli)"
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2022",
+        "entries": [
+            {
+                "title": "Fullstack Softwareentwickler – Zwerrenz Automatisierungstechnik GmbH, Suhl",
+                "category": "job",
+                "icon": "fas fa-laptop-code",
+                "details": [
+                    "Entwicklung von Softwarelösungen mit LabVIEW",
+                    "Desktop- und Webanwendungen mit WPF, MAUI, Blazor und C# (.NET, Visual Studio)",
+                    "Erstellung und Pflege von Funktionsbibliotheken in C#",
+                    "SPS-Programmierung mit Siemens TIA Portal",
+                    "Roboterprogrammierung (Stäubli, KUKA, UR)",
+                    "Versionsverwaltung mit GitHub",
+                    "Server- und Netzwerkadministration"
+                ]
+            }
+        ]
+    },
+    {
+        "year": "2024",
+        "entries": [
+            {
+                "title": "Weiterbildung – KUKA Roboterprogrammierung",
+                "category": "training",
+                "icon": "fas fa-robot",
+                "details": [
+                    "Teilnahme am KUKA KR C5 Umsteigerkurs, KUKA College Augsburg"
+                ]
+            },
+            {
+                "title": "Senior Fullstack Softwareentwickler – LIVA Power Management Systems GmbH, Karlsruhe",
+                "category": "job",
+                "icon": "fas fa-code-branch",
+                "details": [
+                    "Entwicklung moderner Anwendungen mit JetBrains Rider und Visual Studio Code",
+                    "Technologien: C# (.NET), HTML, Vue.js, CSS",
+                    "Funktionsbibliotheken in C# (.NET)",
+                    "Versionsverwaltung mit GitHub",
+                    "Projektmanagement mit Kanban Board",
+                    "Dokumentation mit Atlassian Confluence"
+                ]
+            }
+        ]
+    }
+]

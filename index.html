@@ -1,262 +1,297 @@
 <!DOCTYPE html>
 <html lang="de">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Maik Brückner</title>
-        <link href="https://fonts.bunny.net/css?family=inter:400,700">
-        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maik Brückner</title>
+    <link href="https://fonts.bunny.net/css?family=inter:400,700">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+        integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 
-        <link href="css/colors.css" rel="stylesheet">
-        <link href="css/animations.css" rel="stylesheet">
-        <link href="css/main.css" rel="stylesheet">
-        <!--link href="css/timeline.css" rel="stylesheet"-->
-    </head>
+    <link href="css/colors.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--link href="css/timeline.css" rel="stylesheet"-->
+</head>
 
-    <body>
-        <!-- Navbar -->
-        <header id="header" class="header d-flex align-items-center sticky-top">
-            <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-                <!-- Logo -->
-                <a class="navbar-brand d-flex align-items-center" href="#home">
-                    <img src="img/logo_h_de.svg" alt="Logo">
-                </a>
-                <!-- Navmenu -->
-                <nav id="navmenu" class="navmenu">
-                    <ul>
-                        <li><a href="#home" class="active">Startseite<br></a></li>
-                        <li><a href="#about">Über mich</a></li>
-                        <li><a href="#resume">Lebenslauf</a></li>
-                        <li class="dropdown"><a href="#projects"><span>Projekte</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                            <ul>
-                                <li><a href="#projects" data-id="project-grainlab">Grainlab – Weizensortierung mit KI</a></li>
-                                <li><a href="#projects" data-id="project-matrixkit">Matrixkit LED-Scheinwerfer</a></li>
-                                <li><a href="#projects" data-id="project-fuellstand">Füllstandüberwachung</a></li>
-                                <li><a href="#projects" data-id="project-biled">BiLED – LED-Scheinwerfer Justage</a></li>
-                                <li><a href="#projects" data-id="project-matrixkitv2">Matrixkit V2</a></li>
-                                <li><a href="#projects" data-id="project-pressenumbau">Pressenumbau</a></li>
-                                <li><a href="#projects" data-id="project-zeiterfassung">Zeiterfassung</a></li>
-                                <li><a href="#projects" data-id="project-datagrabber">DataGrabber</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#contact">Kontakt</a></li>
-                        <li><a href="#notice">Impressum</a></li>
-                    </ul>
-                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-                </nav>
+<body>
+    <!-- Navbar -->
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <img src="img/logo_h_de.svg" alt="Logo">
+            </a>
+            <!-- Navmenu -->
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#home" class="active">Startseite<br></a></li>
+                    <li><a href="#about">Über mich</a></li>
+                    <li><a href="#resume">Lebenslauf</a></li>
+                    <li class="dropdown"><a href="#projects"><span>Projekte</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="#projects" data-id="project-grainlab">Grainlab – Weizensortierung mit KI</a>
+                            </li>
+                            <li><a href="#projects" data-id="project-matrixkit">Matrixkit LED-Scheinwerfer</a></li>
+                            <li><a href="#projects" data-id="project-fuellstand">Füllstandüberwachung</a></li>
+                            <li><a href="#projects" data-id="project-biled">BiLED – LED-Scheinwerfer Justage</a></li>
+                            <li><a href="#projects" data-id="project-matrixkitv2">Matrixkit V2</a></li>
+                            <li><a href="#projects" data-id="project-pressenumbau">Pressenumbau</a></li>
+                            <li><a href="#projects" data-id="project-zeiterfassung">Zeiterfassung</a></li>
+                            <li><a href="#projects" data-id="project-datagrabber">DataGrabber</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a href="#notice">Impressum</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="home section dark-background">
+            <img src="img/bg.png" alt="" data-aos="fade-in">
+
+            <div class="container d-flex flex-column align-items-center justify-content-center text-center"
+                data-aos="fade-up" data-aos-delay="100">
+                <h2>Willkommen! Ich bin Maik Brückner</h2>
+                <p><span class="typed"
+                        data-typed-items="UI/UX Designer, Entwickler maßgeschneiderter Software, Automatisierungsexperte, Robotik-Enthusiast, Freelancer für Ihr Projekt"></span>
+                </p>
             </div>
-        </header>
+        </section>
 
-        <main>
-            <!-- Home Section -->
-            <section id="home" class="home section dark-background">
-                <img src="img/bg.png" alt="" data-aos="fade-in">
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4">
+                    <div class="col-md-6">
 
-                <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-                    <h2>Willkommen! Ich bin Maik Brückner</h2>
-                    <p><span class="typed" data-typed-items="UI/UX Designer, Entwickler maßgeschneiderter Software, Automatisierungsexperte, Robotik-Enthusiast, Freelancer für Ihr Projekt"></span></p>
+                        <div class="row justify-content-between gy-4">
+                            <div class="col-lg-5">
+                                <img src="img/bg.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-lg-7 about-info">
+                                <p><strong>Name: </strong> <span>Maik Brückner</span></p>
+                                <p><strong>Profil: </strong> <span>Full Stack Entwickler</span></p>
+                                <p><strong>Email: </strong> <span>maik.brueckner@brueckner-codecraft.com</span></p>
+                            </div>
+                        </div>
+
+                        <div class="skills-content skills-animation">
+                            <h5>Skills</h5>
+
+                            <div class="progress">
+                                <span class="skill"><span>.net C#</span> <i class="val">95%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>.net WPF</span> <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>.net Blazor</span> <i class="val">75%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>SQL</span> <i class="val">95%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>TIA-Portal</span> <i class="val">100%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>ABB</span> <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>KUKA</span> <i class="val">75%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>Stäubli</span> <i class="val">100%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>HTML</span> <i class="val">55%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>CSS</span> <i class="val">75%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>Photoshop</span> <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>Illustrator</span> <i class="val">85%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>Excel</span> <i class="val">100%</i></span>
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="about-me">
+                            <h4>Über mich</h4>
+                            <p>Seit über einem Jahrzehnt bin ich als Softwareentwickler im professionellen Umfeld tätig
+                                – meine
+                                Leidenschaft für Technik begann jedoch schon viel früher: Mit 15 Jahren programmierte
+                                ich erste
+                                Anwendungen auf dem C64, später mit Turbo Pascal auf einem 386er. Heute entwickle ich
+                                moderne
+                                Softwarelösungen für komplexe Automatisierungsprozesse – mit einem breiten
+                                technologischen
+                                Spektrum, das von C#, WPF und Blazor über LabVIEW bis hin zu SPS-Programmierung im
+                                TIA-Portal
+                                reicht.
+                            </p>
+                            <p>Mein Schwerpunkt liegt im Sondermaschinenbau, insbesondere in der Prozessautomatisierung.
+                                Ich
+                                übernehme sowohl die Entwicklung einzelner Komponenten als auch die vollständige
+                                Umsetzung ganzer
+                                Zellen – von der SPS über HMI bis zur Datenanbindung an ERP-Systeme. Dabei zeichnet mich
+                                meine
+                                Vielseitigkeit aus: Wo andere sich spezialisieren, verbinde ich Welten – ob
+                                Mikrocontroller in
+                                C, OPC UA, SQL-Datenbanken oder moderne UI/UX-Konzepte. Für jedes Problem finde ich eine
+                                Lösung –
+                                technologieoffen, strukturiert und lösungsorientiert.
+                            </p>
+                            <p>Aktuell suche ich spannende Remote-Projekte, die ich flexibel neben meiner Festanstellung
+                                realisieren kann – sei es als Zuarbeit oder als eigenständige Entwicklung. Ich arbeite
+                                zuverlässig, mit schneller Einarbeitung und einem klaren Fokus auf den Kundennutzen.
+                                Wenn Sie
+                                einen Entwickler suchen, der nicht nur Code schreibt, sondern Prozesse versteht und
+                                mitdenkt,
+                                freue ich mich auf Ihre Anfrage.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- About Section -->
-            <section id="about" class="about section">
-                <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <!-- Resume Section -->
+        <section id="resume" class="section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Lebenslauf</h2>
+                <p>Mein beruflicher Werdegang im Überblick</p>
+            </div>
+            <!--div id="resume-container" class="container" data-aos="fade-up"></div-->
+            <div id="resume-app" class="container" data-aos="fade-up"></div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section accent-background">
+            <div id="projectContainer" class="container projects-text" data-aos="fade-up"></div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Kontakt</h2>
+                <p>Lassen Sie uns gemeinsam herausfinden, wie ich Sie bei Ihrem Vorhaben unterstützen kann. Ich melde
+                    mich schnellstmöglich zurück.</p>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row gy-5">
+
+                        <div class="col-lg-4">
+                            <div class="info-item d-flex align-items-center">
+                                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                                <div>
+                                    <h3>Anschrift</h3>
+                                    <p>Friesenstraße 10, 98529 Suhl</p>
+                                </div>
+                            </div>
+                        </div><!-- End Info Item -->
+
+                        <div class="col-lg-4">
+                            <div class="info-item d-flex align-items-center">
+                                <i class="bi bi-envelope flex-shrink-0"></i>
+                                <div>
+                                    <h3>E-Mail an uns</h3>
+                                    <p>info@bruckner-codecraft.com</p>
+                                </div>
+                            </div>
+                        </div><!-- End Info Item -->
+
+                    </div>
+                </div>
+
+                <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+                    data-aos-delay="300">
                     <div class="row gy-4">
-                        <div class="col-md-6">
-
-                            <div class="row justify-content-between gy-4">
-                                <div class="col-lg-5">
-                                    <img src="img/bg.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="col-lg-7 about-info">
-                                    <p><strong>Name: </strong> <span>Maik Brückner</span></p>
-                                    <p><strong>Profil: </strong> <span>Full Stack Entwickler</span></p>
-                                    <p><strong>Email: </strong> <span>maik.brueckner@brueckner-codecraft.com</span></p>
-                                </div>
-                            </div>
-
-                            <div class="skills-content skills-animation">
-                                <h5>Skills</h5>
-
-                                <div class="progress">
-                                    <span class="skill"><span>.net C#</span> <i class="val">95%</i></span>
-                                    <div class="progress-bar-wrap">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- End Skills Item -->
-
-                                <div class="progress">
-                                    <span class="skill"><span>.net WPF</span> <i class="val">85%</i></span>
-                                    <div class="progress-bar-wrap">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- End Skills Item -->
-
-                                <div class="progress">
-                                    <span class="skill"><span>.net Blazor</span> <i class="val">75%</i></span>
-                                    <div class="progress-bar-wrap">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- End Skills Item -->
-
-                                <div class="progress">
-                                    <span class="skill"><span>SQL</span> <i class="val">95%</i></span>
-                                    <div class="progress-bar-wrap">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- End Skills Item -->
-
-                                <div class="progress">
-                                    <span class="skill"><span>TIA-Portal</span> <i class="val">100%</i></span>
-                                    <div class="progress-bar-wrap">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- End Skills Item -->
-
-                                <div class="progress">
-                                    <span class="skill"><span>ABB</span> <i class="val">85%</i></span>
-                                    <div class="progress-bar-wrap">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- End Skills Item -->
-
-                                <div class="progress">
-                                    <span class="skill"><span>KUKA</span> <i class="val">75%</i></span>
-                                    <div class="progress-bar-wrap">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- End Skills Item -->
-
-                                <div class="progress">
-                                    <span class="skill"><span>Stäubli</span> <i class="val">100%</i></span>
-                                    <div class="progress-bar-wrap">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- End Skills Item -->
-
-                                <div class="progress">
-                                    <span class="skill"><span>HTML</span> <i class="val">55%</i></span>
-                                    <div class="progress-bar-wrap">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- End Skills Item -->
-
-                                <div class="progress">
-                                    <span class="skill"><span>CSS</span> <i class="val">75%</i></span>
-                                    <div class="progress-bar-wrap">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- End Skills Item -->
-
-                                <div class="progress">
-                                    <span class="skill"><span>Photoshop</span> <i class="val">85%</i></span>
-                                    <div class="progress-bar-wrap">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- End Skills Item -->
-
-                                <div class="progress">
-                                    <span class="skill"><span>Illustrator</span> <i class="val">85%</i></span>
-                                    <div class="progress-bar-wrap">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- End Skills Item -->
-
-                                <div class="progress">
-                                    <span class="skill"><span>Excel</span> <i class="val">100%</i></span>
-                                    <div class="progress-bar-wrap">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div><!-- End Skills Item -->
-                            </div>
-
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="about-me">
-                                <h4>Über mich</h4>
-                                <p>Seit über einem Jahrzehnt bin ich als Softwareentwickler im professionellen Umfeld tätig – meine
-                                    Leidenschaft für Technik begann jedoch schon viel früher: Mit 15 Jahren programmierte ich erste
-                                    Anwendungen auf dem C64, später mit Turbo Pascal auf einem 386er. Heute entwickle ich moderne
-                                    Softwarelösungen für komplexe Automatisierungsprozesse – mit einem breiten technologischen
-                                    Spektrum, das von C#, WPF und Blazor über LabVIEW bis hin zu SPS-Programmierung im TIA-Portal
-                                    reicht.
-                                </p>
-                                <p>Mein Schwerpunkt liegt im Sondermaschinenbau, insbesondere in der Prozessautomatisierung. Ich
-                                    übernehme sowohl die Entwicklung einzelner Komponenten als auch die vollständige Umsetzung ganzer
-                                    Zellen – von der SPS über HMI bis zur Datenanbindung an ERP-Systeme. Dabei zeichnet mich meine
-                                    Vielseitigkeit aus: Wo andere sich spezialisieren, verbinde ich Welten – ob Mikrocontroller in
-                                    C, OPC UA, SQL-Datenbanken oder moderne UI/UX-Konzepte. Für jedes Problem finde ich eine Lösung –
-                                    technologieoffen, strukturiert und lösungsorientiert.
-                                </p>
-                                <p>Aktuell suche ich spannende Remote-Projekte, die ich flexibel neben meiner Festanstellung
-                                    realisieren kann – sei es als Zuarbeit oder als eigenständige Entwicklung. Ich arbeite
-                                    zuverlässig, mit schneller Einarbeitung und einem klaren Fokus auf den Kundennutzen. Wenn Sie
-                                    einen Entwickler suchen, der nicht nur Code schreibt, sondern Prozesse versteht und mitdenkt,
-                                    freue ich mich auf Ihre Anfrage.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Resume Section -->
-            <section id="resume" class="section">
-                <div class="container section-title" data-aos="fade-up">
-                    <h2>Lebenslauf</h2>
-                    <p>Text?</p>
-                </div>
-                <div id="resume-container" class="container" data-aos="fade-up"></div>
-            </section>
-
-            <!-- Projects Section -->
-            <section id="projects" class="projects section accent-background">
-                <div id="projectContainer" class="container projects-text" data-aos="fade-up"></div>
-            </section>
-
-            <!-- Contact Section -->
-            <section id="contact" class="contact section">
-                <div class="container section-title" data-aos="fade-up">
-                    <h2>Kontakt</h2>
-                    <p>Lassen Sie uns gemeinsam herausfinden, wie ich Sie bei Ihrem Vorhaben unterstützen kann. Ich melde mich schnellstmöglich zurück.</p>
-                </div>
-
-                <div class="container" data-aos="fade-up" data-aos-delay="100">
-                    <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
-                        <div class="row gy-5">
-
-                            <div class="col-lg-4">
-                                <div class="info-item d-flex align-items-center">
-                                    <i class="bi bi-geo-alt flex-shrink-0"></i>
-                                    <div>
-                                        <h3>Anschrift</h3>
-                                        <p>Friesenstraße 10, 98529 Suhl</p>
-                                    </div>
-                                </div>
-                            </div><!-- End Info Item -->
-
-                            <div class="col-lg-4">
-                                <div class="info-item d-flex align-items-center">
-                                    <i class="bi bi-envelope flex-shrink-0"></i>
-                                    <div>
-                                        <h3>E-Mail an uns</h3>
-                                        <p>info@bruckner-codecraft.com</p>
-                                    </div>
-                                </div>
-                            </div><!-- End Info Item -->
-
-                        </div>
-                    </div>
-
-                    <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
-                        <div class="row gy-4">
 
                         <div class="col-md-6">
                             <input type="text" name="name" class="form-control" placeholder="Ihr Name" required="">
@@ -271,7 +306,8 @@
                         </div>
 
                         <div class="col-md-12">
-                            <textarea class="form-control" name="message" rows="6" placeholder="Nachricht" required=""></textarea>
+                            <textarea class="form-control" name="message" rows="6" placeholder="Nachricht"
+                                required=""></textarea>
                         </div>
 
                         <div class="col-md-12 text-center">
@@ -282,51 +318,59 @@
                             <button type="submit">Nachricht senden</button>
                         </div>
 
-                        </div>
-                    </form>
-                </div>
-            </section>
+                    </div>
+                </form>
+            </div>
+        </section>
 
-            <!-- Contact Section -->
-            <section id="notice" class="notice section">
-                <div class="container" data-aos="fade-up">
-                    <h4>Impressum</h4>
-                    <h5>Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz):</h5>
-                    <h6>Brückner Codecraft</h6>
-                    <p>Maik Brückner<br>
-                        Friesenstraße 10<br>
-                        98529 Suhl<br>
-                        Deutschland<br>
-                    </p>
-                    <h6>Kontakt:</h6>
-                    <p>E-Mail: info@bruckner-codecraft.com</p>
-                    <h6>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:</h6>
-                    <p>Maik Brückner<br>
-                        Friesenstraße 10<br>
-                        98529 Suhl<br>
-                        Deutschland<br>
-                    </p>
-                    <h6>Hinweis zur Umsatzsteuer:</h6>
-                    <p>Gemäß § 19 UStG wird keine Umsatzsteuer erhoben und daher auch nicht ausgewiesen.</p>
-                    <h6>Berufliche Tätigkeit:</h6>
-                    <p>Freiberuflicher Softwareentwickler.<br>
-                        Die Website dient ausschließlich der Präsentation meiner Dienstleistungen und der Kontaktaufnahme.<br>
-                        Es erfolgt kein Verkauf von Waren oder Produkten.
-                    </p>
-                </div>
-            </section>
-        </main>
+        <!-- Contact Section -->
+        <section id="notice" class="notice section">
+            <div class="container" data-aos="fade-up">
+                <h4>Impressum</h4>
+                <h5>Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz):</h5>
+                <h6>Brückner Codecraft</h6>
+                <p>Maik Brückner<br>
+                    Friesenstraße 10<br>
+                    98529 Suhl<br>
+                    Deutschland<br>
+                </p>
+                <h6>Kontakt:</h6>
+                <p>E-Mail: info@bruckner-codecraft.com</p>
+                <h6>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:</h6>
+                <p>Maik Brückner<br>
+                    Friesenstraße 10<br>
+                    98529 Suhl<br>
+                    Deutschland<br>
+                </p>
+                <h6>Hinweis zur Umsatzsteuer:</h6>
+                <p>Gemäß § 19 UStG wird keine Umsatzsteuer erhoben und daher auch nicht ausgewiesen.</p>
+                <h6>Berufliche Tätigkeit:</h6>
+                <p>Freiberuflicher Softwareentwickler.<br>
+                    Die Website dient ausschließlich der Präsentation meiner Dienstleistungen und der
+                    Kontaktaufnahme.<br>
+                    Es erfolgt kein Verkauf von Waren oder Produkten.
+                </p>
+            </div>
+        </section>
+    </main>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="js/typed.js/typed.umd.js"></script>
-        <script src="js/validate.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/printprojects.js"></script>
-        <script src="js/resume.js"></script>
-        <script src="https://kit.fontawesome.com/0b40067d86.js" crossorigin="anonymous"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/typed.js/typed.umd.js"></script>
+    <script src="js/validate.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/printprojects.js"></script>
+    <!--script src="js/resume.js"></script-->
+    <script src="https://kit.fontawesome.com/0b40067d86.js" crossorigin="anonymous"></script>
+
+    <!-- Vue & App Bundle -->
+    <script type="module" src="src/main.js"></script>
+</body>
 
 </html>
