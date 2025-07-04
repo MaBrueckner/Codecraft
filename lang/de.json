@@ -24,17 +24,6 @@
     "title": "Lebenslauf",
     "subtitle": "Mein beruflicher Werdegang im Überblick"
   },
-  "projects": {
-    "title": "Meine Projekte",
-    "project1": {
-      "title": "Projekt Alpha",
-      "description": "Ein innovatives Tool zur Codeanalyse."
-    },
-    "project2": {
-      "title": "Projekt Beta",
-      "description": "Eine Plattform zur Visualisierung von Daten."
-    }
-  },
   "contact": {
     "title": "Kontakt",
     "subtitle": "Lassen Sie uns gemeinsam herausfinden, wie ich Sie bei Ihrem Vorhaben unterstützen kann. Ich melde mich schnellstmöglich zurück.",

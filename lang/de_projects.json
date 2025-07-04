@@ -1,0 +1,71 @@
+{
+  "projects": {
+    "title": "Meine Projekte",
+    "grainlab": {
+      "title": "Projekt Grainlab – Automatisierte Weizensortierung mit KI",
+      "description": [
+        "Im Rahmen des Projekts mit der TU Ilmenau entstand ein Laborautomat zur Sortierung von Weizenkörnern.",
+        "Ein Trichter, Rüttelplatte und Förderbänder verteilten die Körner. Eine Zeilenkamera und KI analysierten diese.",
+        "Gute Körner wurden gesammelt, Besatzstoffe ausgeschleust, unklare erneut geprüft.",
+        "SPS mit TIA Portal 7.4 steuerte Umrichter, Auswurf und Kommunikation.",
+        "Das UI in LabVIEW ermöglichte flexible Einstellungen und Visualisierungen."
+      ]
+    },
+    "matrixkit": {
+      "title": "Projekt Matrixkit LED-Scheinwerfer – Automatisierte Prüfung von Primäroptiken",
+      "description": [
+        "Ein Prüfautomat für Silikon-Primäroptiken mit ABB-Roboter und Rundschalttisch.",
+        "Vier Prüfstationen: Anwesenheit/Höhe, lichttechnische Prüfung, Kennzeichnung, Sortierung.",
+        "SPS mit TIA Portal V14, HMI-Design und Profinet-Kommunikation wurden von mir umgesetzt."
+      ]
+    },
+    "fuellstand": {
+      "title": "Projekt Füllstandüberwachung – Prozessdatenerfassung zur Qualitätssicherung",
+      "description": [
+        "Zehn Anlagen zur Thermometerbefüllung wurden mit EtherCAT-Sensoren umgerüstet.",
+        "PostgreSQL-Datenbank, C#-Wrapper für LabVIEW-Kommunikation.",
+        "Visualisierung, Datensicherung (CSV, Rotationsbackup) und automatisierte Datenverwaltung."
+      ]
+    },
+    "biled": {
+      "title": "Projekt BiLED – Automatisierte Justage für LED-Scheinwerfer",
+      "description": [
+        "Ein Justageautomat für LED-Scheinwerfer ersetzte klassische H4/H7-Lampen.",
+        "Warenträgersystem, Linearachse und Stäubli-Roboter montieren Bauteile nach Vermessung.",
+        "Ich übernahm die präzise Roboterprogrammierung inklusive Fügeprozessoptimierung."
+      ]
+    },
+    "matrixkitv2": {
+      "title": "Projekt Matrixkit LED-Scheinwerfer V2 – Automatisierte Prüfung von Primäroptiken",
+      "description": [
+        "Überarbeitete Prüfanlage mit Traystapelsystem und DataMatrix-Code-Erkennung.",
+        "LabVIEW-Anwendung zur Messwertdarstellung, SPS für Trayverstellung, DMC-Scanner mit hoher Erkennungsrate.",
+        "Anbindung an ERP-System und optimierter Lichtmessplatz."
+      ]
+    },
+    "pressenumbau": {
+      "title": "Projekt Pressenumbau – Modernisierung einer 30 Jahre alten Produktionsanlage",
+      "description": [
+        "Alte Zylinderkolbenpresse wurde vermessen, simuliert und modernisiert.",
+        "Programmierung von drei ABB-Robotern mit Fokus auf Geschwindigkeit und Präzision.",
+        "Simulation ermöglichte ideale Platzierung und Bewegungsoptimierung."
+      ]
+    },
+    "zeiterfassung": {
+      "title": "Projekt Zeiterfassung – Umstieg auf moderne Technologie mit bestehender Datenbank",
+      "description": [
+        "WPF-Anwendung mit .NET C# zur Zeiterfassung auf Basis einer bestehenden Firebird SQL-Datenbank.",
+        "Neue Hardwareintegration, intuitive Oberfläche im Corporate Design.",
+        "Zukunftssicher durch Windows-Terminals und Chip-Anmeldung."
+      ]
+    },
+    "datagrabber": {
+      "title": "Projekt DataGrabber – Neuentwicklung mit moderner Technologie",
+      "description": [
+        "Komplette Neuentwicklung in .NET C# (WPF), Umstieg von LabVIEW.",
+        "OPC UA ersetzt unsichere Put/Get-Kommunikation.",
+        "Einfache Konfiguration, modernes UI, über 90% des Codes selbst entwickelt."
+      ]
+    }
+  }
+}
