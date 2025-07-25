@@ -1,6 +1,6 @@
 async function loadProjectsFromJSON(language = "de") {
     try {
-        const response = await fetch(`./lang/${language}_projects_merged.json`);
+        const response = await fetch(`./lang/${language}_projects.json`);
         if (!response.ok) throw new Error("JSON konnte nicht geladen werden.");
         const json = await response.json();
         return json.projects;
@@ -20,19 +20,48 @@ function renderProject(projectId, projectData) {
     }
 
     const project = projectData[projectId];
-
+    
+    // Titel
     const title = document.createElement("h4");
     title.textContent = project.title;
-
-    const description = document.createElement("div");
-    project.description.forEach(line => {
-        const p = document.createElement("p");
-        p.textContent = line;
-        description.appendChild(p);
-    });
-
     container.appendChild(title);
-    container.appendChild(description);
+
+    // Paragraphs
+    if (project.paragraphs) {
+        project.paragraphs.forEach(text => {
+            const p = document.createElement("p");
+            p.textContent = text;
+            container.appendChild(p);
+        });
+    }
+
+    // Listen
+    if (project.lists) {
+        project.lists.forEach(list => {
+            if (list.intro) {
+                const p = document.createElement("p");
+                p.textContent = list.intro;
+                container.appendChild(p);
+            }
+
+            const ul = document.createElement("ul");
+            list.items.forEach(item => {
+                const li = document.createElement("li");
+                li.textContent = item;
+                ul.appendChild(li);
+            });
+            container.appendChild(ul);
+        });
+    }
+
+    // Zusätzliche Absätze
+    if (project.additional_paragraphs) {
+        project.additional_paragraphs.forEach(text => {
+            const p = document.createElement("p");
+            p.textContent = text;
+            container.appendChild(p);
+        });
+    }
 }
 
 document.addEventListener("DOMContentLoaded", async () => {

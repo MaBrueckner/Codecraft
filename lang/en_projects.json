@@ -1,0 +1,130 @@
+{
+  "projects": {
+    "title": "My Projects",
+    "project-grainlab": {
+      "title": "Project Grainlab – Automated Wheat Sorting with AI",
+      "paragraphs": [
+        "As part of the cooperative project Grainlab with TU Ilmenau (2014/2015), a compact laboratory automation system was developed for sorting wheat grains. The goal was to reliably filter out so-called contaminants – unwanted components such as foreign grains or damaged grains – from the wheat.",
+        "The process began with filling the wheat into a funnel. From there, the grains were evenly distributed onto five conveyor belts via a shaking plate. A line camera captured the grains during movement, and an early form of AI-supported image recognition, developed at TU Ilmenau, analyzed the images in real-time."
+      ],
+      "lists": [
+        {
+          "items": [
+            "Good grains were collected in a central container.",
+            "Contaminants were ejected into separate containers depending on their type.",
+            "Grains that were not clearly identified in the first pass were reintroduced into the funnel via a recirculation system."
+          ]
+        },
+        {
+          "intro": "I was responsible for the PLC programming with TIA Portal 7.4. The PLC controlled, among other things:",
+          "items": [
+            "the converters for controlling the conveyor belts,",
+            "the ejection mechanism,",
+            "as well as the communication with the camera and the user interface."
+          ]
+        },
+        {
+          "intro": "The user interface (UI) developed by me in LabVIEW enabled comfortable operation:",
+          "items": [
+            "The conveyor belt speed could be adjusted flexibly.",
+            "The most recently captured grains were visualized in tracks.",
+            "A software switch allowed the ejection to be disabled in order to specifically collect training data for the AI."
+          ]
+        }
+      ],
+      "additional_paragraphs": [
+        "The PLC continuously transmitted the current belt increment to the user interface, so the associated Windows program always knew the position of the grains. At the same time, the current belt position was passed on to the camera to determine the optimal time for image capture."
+      ]
+    },
+    "project-matrixkit": {
+      "title": "Project Matrixkit LED Headlight – Automated Testing of Primary Optics",
+      "paragraphs": [
+        "In 2015, a testing machine was developed for quality control of primary optics made of silicone, which are used in multibeam LED headlights for passenger cars. These optics are crucial for the light distribution in the headlight.",
+        "An operator loads two drawers with 20 optics each. An ABB robot removes these and places them on a rotary table, which guides them through several testing stations:"
+      ],
+      "lists": [
+        {
+          "items": [
+            "Presence and height testing: Camera and confocal sensor check the position and height of the light guides.",
+            "Light technical testing: The optics are darkened and illuminated from below. A light measurement camera evaluates the light transmission of each pin.",
+            "Labeling: The optics are marked as 'Good' or 'Bad'.",
+            "Sorting: OK parts go into the good drawer, NOK parts into the bad drawer."
+          ]
+        }
+      ],
+      "additional_paragraphs": [
+        "I was responsible for the PLC programming with TIA Portal V14, the control of the rotary table, the design of the HMI interface, and the communication via Profinet. The commissioning at the customer included tests and final optimizations."
+      ]
+    },
+    "project-fuellstand": {
+      "title": "Project Level Monitoring – Process Data Acquisition for Quality Assurance",
+      "paragraphs": [
+        "The goal was to retrofit ten systems for filling thermometers so that quality-relevant measurement data such as vacuum and temperature could be automatically recorded.",
+        "The sensors were connected directly to the PC via EtherCAT modules – without a PLC. A Hilscher card in the PC enabled direct access to the network.",
+        "I planned and implemented the entire system architecture, including a PostgreSQL database for storing the measurement values. Since LabVIEW cannot communicate directly with PostgreSQL, I developed a wrapper DLL in C# (.NET).",
+        "The LabVIEW frontend displays the measurement data in diagrams and controls the database connection. An automated data management system ensures:"
+      ],
+      "lists": [
+        {
+          "items": [
+            "2 years of user database with automatic deletion",
+            "10 years of backup database with automatic deletion",
+            "Daily CSV backup on network drive"
+          ]
+        }
+      ]
+    },
+    "project-biled": {
+      "title": "Project BiLED – Automated Adjustment for LED Headlights",
+      "paragraphs": [
+        "In 2018, a compact LED headlight was developed to replace traditional H4/H7 bulbs. An adjustment robot takes over the precise assembly.",
+        "LED boards and primary optics are supplied via a carrier system. A linear axis and two Stäubli robots handle the components.",
+        "Before assembly, optical and confocal measurements are taken. If all values match, the robots synchronously assemble the unit.",
+        "I was responsible for the robot programming. Using standard parts and measurement data, exact joining positions were calculated. The robots operate faster and more precisely than the previous generation."
+      ]
+    },
+    "project-matrixkitv2": {
+      "title": "Project Matrixkit LED Headlight V2 – Automated Testing of Primary Optics",
+      "paragraphs": [
+        "In 2019, the original primary optics were revised. The testing system received new features, including a tray stacking system with up to ten trays per side and a DataMatrix code (DMC) for unique part identification.",
+        "An ABB robot removes the optics, scans the DMC, and places them on the rotary table. A preliminary assessment is made at this stage. In the next station, the optics undergo photometric testing. The results determine the sorting into OK trays or a NOK drawer.",
+        "I was responsible for:"
+      ],
+      "lists": [
+        {
+          "items": [
+            "The development of the Windows application in LabVIEW for visualizing and storing measurement results",
+            "The complete PLC programming, including height adjustment of the tray stacks",
+            "The configuration of the DMC scanners for over 99% detection rate",
+            "The setup of the light measurement station and the test programs",
+            "The integration with the customer's ERP system"
+          ]
+        }
+      ]
+    },
+    "project-pressenumbau": {
+      "title": "Project Pressenumbau – Modernization of a 30-Year-Old Production System",
+      "paragraphs": [
+        "An old press for manufacturing cylinder pistons was modernized in several stages. First, the system was completely measured in 3D to accurately plan new hardware. Then, the entire system was virtually simulated to test control, motion sequences, and construction.",
+        "The conversion and commissioning took place within a week. I was responsible for programming the three new ABB robots that replaced the old KUKA robots. The motion sequences had to be at least as fast and precise as before.",
+        "Thanks to simulation, bottlenecks could be identified, movements optimized, and robot positions ideally chosen."
+      ]
+    },
+    "project-zeiterfassung": {
+      "title": "Project Zeiterfassung – Transition to Modern Technology with Existing Database",
+      "paragraphs": [
+        "Since the manufacturer of the previous terminals no longer offered new devices, a new solution was developed that continues to work with the existing Firebird SQL database. The new application was implemented with .NET C# and WPF.",
+        "I evaluated new hardware solutions to enable chip-based login. The new WPF interface is aligned with the corporate design and allows for intuitive operation. Employees can log in and out, book orders, and view their own performance data.",
+        "By using Windows terminals, the solution became future-proof and independent of proprietary hardware."
+      ]
+    },
+    "project-datagrabber": {
+      "title": "Project DataGrabber – New Development with Modern Technology",
+      "paragraphs": [
+        "The existing DataGrabber was completely redeveloped. The technology was switched from LabVIEW to .NET C# with WPF. This allowed me to create a modern, user-friendly interface in the corporate design.",
+        "Communication with the Siemens PLC was changed from Put/Get to OPC UA, which increased security. The new architecture allows for easy configuration: database model, connection string, and OPC UA link are sufficient.",
+        "I designed the complete software architecture, developed over 90% of the functionality myself, and worked closely with colleagues to create a convincing product."
+      ]
+    }
+  }
+}

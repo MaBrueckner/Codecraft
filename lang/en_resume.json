@@ -1,0 +1,209 @@
+{
+  "resume": {
+    "title": "Resume",
+    "subtitle": "My Professional Journey at a Glance",
+    "timeline": [
+      {
+        "year": 2004,
+        "entries": [
+          {
+            "type": "edu",
+            "img": "fas fa-graduation-cap me-2",
+            "title": "A-levels & Military Service",
+            "details": [
+              "General university entrance qualification (A-levels), Vocational Schools of the Unstrut-Hainich District, Mühlhausen (Thuringia)",
+              "Compulsory military service, 6th Artillery Reconnaissance Battalion 131, Neustadt (Hessen)"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2005,
+        "entries": [
+          {
+            "type": "edu",
+            "img": "fas fa-university me-2",
+            "title": "Computer Science Studies",
+            "details": [
+              "Ilmenau University of Technology",
+              "Field of study: Computer Science (without degree)"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2008,
+        "entries": [
+          {
+            "type": "edu",
+            "title": "Vocational Training",
+            "details": [
+              "Start of training as Industrial Mechanic, specialization in Production Technology",
+              "Schliess- und Sicherungssysteme GmbH, Mühlhausen"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2012,
+        "entries": [
+          {
+            "type": "edu",
+            "title": "Graduation & Career Entry",
+            "details": [
+              "Graduation as Industrial Mechanic, specialization in Production Technology",
+              "Career entry as Industrial Mechanic at Schliess- und Sicherungssysteme GmbH, Mühlhausen"
+            ]
+          },
+          {
+            "type": "edu",
+            "img": "fas fa-university me-2",
+            "title": "Further Education as Mechanical Engineering Technician",
+            "details": [
+              "Start of technician studies at the State Technical School for Technology, Mühlhausen",
+              "Specialization: Mechanical Engineering Technology – Production Technology"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2014,
+        "entries": [
+          {
+            "type": "training",
+            "img": "fas fa-graduation-cap me-2",
+            "title": "LabVIEW Certification",
+            "details": [
+              "Participation in the courses 'LabVIEW Core 1 & 2' at National Instruments, Munich"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2015,
+        "entries": [
+          {
+            "type": "job",
+            "title": "Career Entry into Software Development",
+            "details": [
+              "Started as Junior Software Developer at MRB Automation GmbH, Ilmenau",
+              "Development of automation solutions with LabVIEW",
+              "Function libraries in C# (.NET, Visual Studio)",
+              "PLC programming with Siemens TIA Portal",
+              "Robot programming (ABB, Stäubli)",
+              "Version control with TortoiseSVN, ticket system RedMine"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "entries": [
+          {
+            "type": "edu",
+            "img": "fas fa-graduation-cap me-2",
+            "title": "Technician Graduation",
+            "details": [
+              "Graduation as state-certified Mechanical Engineering Technician, specialization in Production Technology",
+              "Thesis: Development and programming of a semi-automatic machine for pressing balls"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "entries": [
+          {
+            "type": "training",
+            "img": "fas fa-graduation-cap me-2",
+            "title": "Robot Training",
+            "details": [
+              "Participation in the Stäubli VAL3 programming training (Version 8.x)",
+              "Location: Stäubli Training Center, Bayreuth"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "entries": [
+          {
+            "type": "training",
+            "img": "fas fa-graduation-cap me-2",
+            "title": "PLC Advanced Training",
+            "details": [
+              "Grollmus training: Programming with GRAPH in TIA Portal",
+              "In-house training"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "entries": [
+          {
+            "type": "training",
+            "img": "fas fa-graduation-cap me-2",
+            "title": "Robot Training",
+            "details": [
+              "ABB IRC5-UMS-RF conversion course for robot specialists, ABB Training Center Friedberg"
+            ]
+          },
+          {
+            "type": "job",
+            "title": "Software Developer at Lasco Umformtechnik GmbH",
+            "details": [
+              "Development of desktop applications with WPF and C# (.NET, Visual Studio)",
+              "Creation and maintenance of function libraries in C#",
+              "PLC programming with Siemens TIA Portal",
+              "Robot programming (ABB, Stäubli)"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "entries": [
+          {
+            "type": "job",
+            "title": "Fullstack Software Developer – Zwerrenz Automatisierungstechnik GmbH, Suhl",
+            "details": [
+              "Development of software solutions with LabVIEW",
+              "Desktop and web applications with WPF, MAUI, Blazor and C# (.NET, Visual Studio)",
+              "Creation and maintenance of function libraries in C#",
+              "PLC programming with Siemens TIA Portal",
+              "Robot programming (Stäubli, KUKA, UR)",
+              "Version control with GitHub",
+              "Server and network administration"
+            ]
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "entries": [
+          {
+            "type": "training",
+            "img": "fas fa-graduation-cap me-2",
+            "title": "Advanced Training – KUKA Robot Programming",
+            "details": [
+              "Participation in the KUKA KR C5 conversion course, KUKA College Augsburg"
+            ]
+          },
+          {
+            "type": "job",
+            "title": "Senior Fullstack Software Developer – LIVA Power Management Systems GmbH, Karlsruhe",
+            "details": [
+              "Development of modern applications with JetBrains Rider and Visual Studio Code",
+              "Technologies: C# (.NET), HTML, Vue.js, CSS",
+              "Function libraries in C# (.NET)",
+              "Version control with GitHub",
+              "Project management with Kanban Board",
+              "Documentation with Atlassian Confluence"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

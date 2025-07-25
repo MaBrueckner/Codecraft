@@ -1,70 +1,129 @@
 {
   "projects": {
     "title": "Meine Projekte",
-    "grainlab": {
+    "project-grainlab": {
       "title": "Projekt Grainlab – Automatisierte Weizensortierung mit KI",
-      "description": [
-        "Im Rahmen des Projekts mit der TU Ilmenau entstand ein Laborautomat zur Sortierung von Weizenkörnern.",
-        "Ein Trichter, Rüttelplatte und Förderbänder verteilten die Körner. Eine Zeilenkamera und KI analysierten diese.",
-        "Gute Körner wurden gesammelt, Besatzstoffe ausgeschleust, unklare erneut geprüft.",
-        "SPS mit TIA Portal 7.4 steuerte Umrichter, Auswurf und Kommunikation.",
-        "Das UI in LabVIEW ermöglichte flexible Einstellungen und Visualisierungen."
+      "paragraphs": [
+        "Im Rahmen des kooperativen Projekts Grainlab mit der TU Ilmenau (2014/2015) wurde ein kompakter Laborautomat zur Sortierung von Weizenkörnern entwickelt. Ziel war es, sogenannte Besatzstoffe – also unerwünschte Bestandteile wie Fremdkörner oder beschädigte Körner – zuverlässig aus dem Weizen herauszufiltern.",
+        "Der Prozess begann mit dem Einfüllen des Weizens in einen Trichter. Von dort aus wurden die Körner über eine Rüttelplatte gleichmäßig auf fünf Förderbänder verteilt. Eine Zeilenkamera erfasste die Körner während der Bewegung, und eine frühe Form einer KI-gestützten Bilderkennung, entwickelt an der TU Ilmenau, analysierte die Aufnahmen in Echtzeit."
+      ],
+      "lists": [
+        {
+          "items": [
+            "Gute Körner gelangten in einen zentralen Sammelbehälter.",
+            "Besatzstoffe wurden je nach Art in separate Auffangbehälter ausgeschleust.",
+            "Körner, die im ersten Durchlauf nicht eindeutig erkannt wurden, wurden über ein Rückführungssystem erneut dem Trichter zugeführt."
+          ]
+        },
+        {
+          "intro": "Ich war für die SPS-Programmierung mit TIA Portal 7.4 verantwortlich. Die SPS steuerte unter anderem:",
+          "items": [
+            "die Umrichter zur Regelung der Förderbänder,",
+            "die Auswurfmechanik,",
+            "sowie die Kommunikation mit der Kamera und dem User Interface."
+          ]
+        },
+        {
+          "intro": "Das von mir in LabVIEW entwickelte User Interface (UI) ermöglichte eine komfortable Bedienung:",
+          "items": [
+            "Die Bandgeschwindigkeit konnte flexibel eingestellt werden.",
+            "Die zuletzt erfassten Körner wurden spurweise visualisiert.",
+            "Über einen Softwareschalter ließ sich der Auswurf deaktivieren, um gezielt Trainingsdaten für die KI zu sammeln."
+          ]
+        }
+      ],
+      "additional_paragraphs": [
+        "Die SPS übermittelte kontinuierlich das aktuelle Bandinkrement an die Benutzeroberfläche, sodass das zugehörige Windows-Programm stets wusste, an welcher Position sich die Körner befanden. Gleichzeitig wurde die aktuelle Bandposition an die Kamera weitergegeben, um den optimalen Zeitpunkt für die Bildaufnahme zu bestimmen."
       ]
     },
-    "matrixkit": {
-      "title": "Projekt Matrixkit LED-Scheinwerfer – Automatisierte Prüfung von Primäroptiken",
-      "description": [
-        "Ein Prüfautomat für Silikon-Primäroptiken mit ABB-Roboter und Rundschalttisch.",
-        "Vier Prüfstationen: Anwesenheit/Höhe, lichttechnische Prüfung, Kennzeichnung, Sortierung.",
-        "SPS mit TIA Portal V14, HMI-Design und Profinet-Kommunikation wurden von mir umgesetzt."
+    "project-matrixkit": {
+      "title": "Projekt Matrixkit LED-Scheinwerfer – Automatisierte Prüfung von Primäroptiken",      
+      "paragraphs": [
+        "Im Jahr 2015 entstand ein Prüfautomat zur Qualitätskontrolle von Primäroptiken aus Silikon, die in Multibeam-LED-Scheinwerfern für PKW eingesetzt werden. Diese Optiken sind entscheidend für die Lichtverteilung im Scheinwerfer.",
+        "Ein Bediener bestückt zwei Schubladen mit je 20 Optiken. Ein ABB-Roboter entnimmt diese und legt sie auf einem Rundschalttisch ab, der sie durch mehrere Prüfstationen führt:"
+      ],
+      "lists": [
+        {
+          "items": [
+            "Anwesenheits- und Höhenprüfung: Kamera und konfokaler Sensor prüfen die Lage und Höhe der Lichtleiter.",
+            "Lichttechnische Prüfung: Die Optik wird abgedunkelt und von unten beleuchtet. Eine Lichtmesskamera bewertet die Lichtdurchlässigkeit jedes Pins.",
+            "Kennzeichnung: Die Optik wird als „Gut“ oder „Schlecht“ markiert.",
+            "Sortierung: OK-Teile kommen in die Gut-Schublade, NOK-Teile in die Schlecht-Schublade."
+          ]
+        }
+      ],
+      "additional_paragraphs": [
+        "Ich war verantwortlich für die SPS-Programmierung mit TIA Portal V14, die Steuerung des Rundschalttischs, die Gestaltung der HMI-Oberfläche und die Kommunikation über Profinet. Die Inbetriebnahme beim Kunden umfasste Tests und finale Optimierungen."
       ]
     },
-    "fuellstand": {
+    "project-fuellstand": {
       "title": "Projekt Füllstandüberwachung – Prozessdatenerfassung zur Qualitätssicherung",
-      "description": [
-        "Zehn Anlagen zur Thermometerbefüllung wurden mit EtherCAT-Sensoren umgerüstet.",
-        "PostgreSQL-Datenbank, C#-Wrapper für LabVIEW-Kommunikation.",
-        "Visualisierung, Datensicherung (CSV, Rotationsbackup) und automatisierte Datenverwaltung."
+      "paragraphs": [
+        "Ziel war es, zehn Anlagen zur Befüllung von Thermometern so umzurüsten, dass qualitätsrelevante Messdaten wie Vakuum und Temperatur automatisch erfasst werden.",
+        "Die Sensoren wurden über EtherCAT-Baugruppen direkt mit dem PC verbunden – ohne SPS. Eine Hilscher-Karte im PC ermöglichte den direkten Zugriff auf das Netzwerk.",
+        "Ich plante und setzte die gesamte Systemarchitektur um, inklusive einer PostgreSQL-Datenbank zur Speicherung der Messwerte. Da LabVIEW nicht direkt mit PostgreSQL kommunizieren kann, entwickelte ich eine Wrapper-DLL in C# (.NET).",
+        "Das LabVIEW-Frontend zeigt die Messdaten in Diagrammen und steuert die Datenbankanbindung. Ein automatisiertes Datenmanagement sorgt für:"
+      ],
+      "lists": [
+        {
+          "items": [
+            "2 Jahre Nutzdatenbank mit automatischer Löschung",
+            "10 Jahre Backup-Datenbank mit automatischer Löschung",
+            "Tägliches CSV-Backup auf Netzwerklaufwerk"
+          ]
+        }
       ]
     },
-    "biled": {
+    "project-biled": {
       "title": "Projekt BiLED – Automatisierte Justage für LED-Scheinwerfer",
-      "description": [
-        "Ein Justageautomat für LED-Scheinwerfer ersetzte klassische H4/H7-Lampen.",
-        "Warenträgersystem, Linearachse und Stäubli-Roboter montieren Bauteile nach Vermessung.",
-        "Ich übernahm die präzise Roboterprogrammierung inklusive Fügeprozessoptimierung."
+      "paragraphs": [
+        "Im Jahr 2018 wurde ein kompakter LED-Scheinwerfer entwickelt, der klassische H4/H7-Lampen ersetzen soll. Ein Justageautomat übernimmt die präzise Montage.",
+        "LED-Platinen und Primäroptiken werden über ein Warenträgersystem zugeführt. Eine Linearachse und zwei Stäubli-Roboter übernehmen die Bauteile.",
+        "Vor der Montage erfolgt eine optische und konfokale Vermessung. Stimmen alle Werte, montieren die Roboter synchron die Baugruppe.",
+        "Ich war für die Roboterprogrammierung verantwortlich. Mit Hilfe von Normteilen und Messdaten wurden exakte Fügepositionen berechnet. Die Roboter arbeiten schneller und präziser als die vorherige Generation."
       ]
     },
-    "matrixkitv2": {
+    "project-matrixkitv2": {
       "title": "Projekt Matrixkit LED-Scheinwerfer V2 – Automatisierte Prüfung von Primäroptiken",
-      "description": [
-        "Überarbeitete Prüfanlage mit Traystapelsystem und DataMatrix-Code-Erkennung.",
-        "LabVIEW-Anwendung zur Messwertdarstellung, SPS für Trayverstellung, DMC-Scanner mit hoher Erkennungsrate.",
-        "Anbindung an ERP-System und optimierter Lichtmessplatz."
+      "paragraphs": [
+        "Im Jahr 2019 wurde die ursprüngliche Primäroptik überarbeitet. Die Prüfanlage erhielt neue Funktionen, darunter ein Traystapelsystem mit bis zu zehn Trays pro Seite und ein DataMatrix-Code (DMC) zur eindeutigen Teilezuordnung.",
+        "Ein ABB-Roboter entnimmt die Optiken, scannt den DMC und legt sie auf den Rundschalttisch. Bereits hier erfolgt eine erste Bewertung. In der nächsten Station wird die Optik lichttechnisch geprüft. Die Ergebnisse entscheiden über die Sortierung in OK-Trays oder eine NOK-Schublade.",
+        "Ich war verantwortlich für:"
+      ],
+      "lists": [
+        {
+          "items": [
+            "Die Entwicklung der Windows-Anwendung in LabVIEW zur Visualisierung und Speicherung der Messergebnisse",
+            "Die vollständige SPS-Programmierung inkl. Höhenverstellung der Traystapel",
+            "Die Konfiguration der DMC-Scanner für über 99% Erkennungsrate",
+            "Die Einrichtung des Lichtmessplatzes und der Prüfprogramme",
+            "Die Anbindung an das ERP-System beim Kunden"
+          ]
+        }
       ]
     },
-    "pressenumbau": {
+    "project-pressenumbau": {
       "title": "Projekt Pressenumbau – Modernisierung einer 30 Jahre alten Produktionsanlage",
-      "description": [
-        "Alte Zylinderkolbenpresse wurde vermessen, simuliert und modernisiert.",
-        "Programmierung von drei ABB-Robotern mit Fokus auf Geschwindigkeit und Präzision.",
-        "Simulation ermöglichte ideale Platzierung und Bewegungsoptimierung."
+      "paragraphs": [
+        "Eine alte Presse zur Herstellung von Zylinderkolben wurde in mehreren Etappen modernisiert. Zunächst wurde die Anlage vollständig in 3D vermessen, um neue Hardware exakt einplanen zu können. Danach wurde die gesamte Anlage virtuell simuliert, um Steuerung, Bewegungsabläufe und Konstruktion zu testen.",
+        "Der Umbau und die Inbetriebnahme erfolgten innerhalb einer Woche. Ich war verantwortlich für die Programmierung der drei neuen ABB-Roboter, die die alten KUKA-Roboter ersetzten. Die Bewegungsabläufe mussten mindestens genauso schnell und präzise sein wie zuvor.",
+        "Dank Simulation konnten Engstellen erkannt, Bewegungen optimiert und die Roboterpositionen ideal gewählt werden."
       ]
     },
-    "zeiterfassung": {
+    "project-zeiterfassung": {
       "title": "Projekt Zeiterfassung – Umstieg auf moderne Technologie mit bestehender Datenbank",
-      "description": [
-        "WPF-Anwendung mit .NET C# zur Zeiterfassung auf Basis einer bestehenden Firebird SQL-Datenbank.",
-        "Neue Hardwareintegration, intuitive Oberfläche im Corporate Design.",
-        "Zukunftssicher durch Windows-Terminals und Chip-Anmeldung."
+      "paragraphs": [
+        "Da der Hersteller der bisherigen Terminals keine neuen Geräte mehr anbot, wurde eine neue Lösung entwickelt, die weiterhin mit der bestehenden Firebird SQL-Datenbank funktioniert. Die neue Anwendung wurde mit .NET C# und WPF umgesetzt.",
+        "Ich evaluierte neue Hardwarelösungen, um eine Anmeldung per Chip zu ermöglichen. Die neue WPF-Oberfläche orientiert sich am Corporate Design und ermöglicht eine intuitive Bedienung. Mitarbeitende können sich an- und abmelden, Aufträge buchen und ihre eigenen Leistungsdaten einsehen.",
+        "Durch den Einsatz von Windows-Terminals wurde die Lösung zukunftssicher und unabhängig von proprietärer Hardware."
       ]
     },
-    "datagrabber": {
+    "project-datagrabber": {
       "title": "Projekt DataGrabber – Neuentwicklung mit moderner Technologie",
-      "description": [
-        "Komplette Neuentwicklung in .NET C# (WPF), Umstieg von LabVIEW.",
-        "OPC UA ersetzt unsichere Put/Get-Kommunikation.",
-        "Einfache Konfiguration, modernes UI, über 90% des Codes selbst entwickelt."
+      "paragraphs": [
+        "Der bestehende DataGrabber wurde vollständig neu entwickelt. Die Technologie wurde von LabVIEW auf .NET C# mit WPF umgestellt. Dadurch konnte ich eine moderne, benutzerfreundliche Oberfläche im Corporate Design gestalten.",
+        "Die Kommunikation mit der Siemens-SPS wurde von Put/Get auf OPC UA umgestellt, was die Sicherheit erhöhte. Die neue Architektur erlaubt eine einfache Konfiguration: Datenbankmodell, Verbindungsstring und OPC UA-Link genügen.",
+        "Ich entwarf die komplette Softwarearchitektur, entwickelte über 90% des Funktionsumfangs selbst und arbeitete eng mit Kolleg:innen zusammen, um ein überzeugendes Produkt zu schaffen."
       ]
     }
   }
