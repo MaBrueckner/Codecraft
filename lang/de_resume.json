@@ -7,6 +7,7 @@
         "year": 2004,
         "entries": [
           {
+            "orientation": "left",
             "type": "edu",
             "img": "fas fa-graduation-cap me-2",
             "title": "Abitur & Wehrdienst",
@@ -21,6 +22,7 @@
         "year": 2005,
         "entries": [
           {
+            "orientation": "right",
             "type": "edu",
             "img": "fas fa-university me-2",
             "title": "Studium der Informatik",
@@ -35,7 +37,9 @@
         "year": 2008,
         "entries": [
           {
+            "orientation": "left",
             "type": "edu",
+            "img": "fas fa-tools me-2",
             "title": "Berufsausbildung",
             "details": [
               "Ausbildungsbeginn zum Industriemechaniker, Fachrichtung Fertigungstechnik",
@@ -48,7 +52,9 @@
         "year": 2012,
         "entries": [
           {
+            "orientation": "right",
             "type": "edu",
+            "img": "fas fa-tools me-2",
             "title": "Ausbildungsabschluss & Berufseinstieg",
             "details": [
               "Abschluss der Ausbildung zum Industriemechaniker, Fachrichtung Fertigungstechnik",
@@ -56,6 +62,7 @@
             ]
           },
           {
+            "orientation": "left",
             "type": "edu",
             "img": "fas fa-university me-2",
             "title": "Weiterbildung zum Maschinenbautechniker",
@@ -70,11 +77,13 @@
         "year": 2014,
         "entries": [
           {
+            "orientation": "right",
             "type": "training",
             "img": "fas fa-graduation-cap me-2",
             "title": "LabVIEW-Zertifizierung",
             "details": [
-              "Teilnahme an den Kursen „LabVIEW Core 1 & 2“ bei National Instruments, München"
+              "Teilnahme an den Kursen „LabVIEW Core 1 & 2“",
+              "Ort: National Instruments, München"
             ]
           }
         ]
@@ -83,7 +92,9 @@
         "year": 2015,
         "entries": [
           {
+            "orientation": "left",
             "type": "job",
+            "img": "fas fa-tools me-2",
             "title": "Berufseinstieg in die Softwareentwicklung",
             "details": [
               "Start als Junior Softwareentwickler bei MRB Automation GmbH, Ilmenau",
@@ -100,6 +111,7 @@
         "year": 2016,
         "entries": [
           {
+            "orientation": "right",
             "type": "edu",
             "img": "fas fa-graduation-cap me-2",
             "title": "Technikerabschluss",
@@ -114,6 +126,7 @@
         "year": 2018,
         "entries": [
           {
+            "orientation": "left",
             "type": "training",
             "img": "fas fa-graduation-cap me-2",
             "title": "Roboterschulung",
@@ -128,12 +141,13 @@
         "year": 2019,
         "entries": [
           {
+            "orientation": "right",
             "type": "training",
             "img": "fas fa-graduation-cap me-2",
             "title": "SPS-Weiterbildung",
             "details": [
               "Grollmus-Schulung: Programmieren mit GRAPH im TIA Portal",
-              "Inhouse-Schulung"
+              "Ort: Inhouse-Schulung"
             ]
           }
         ]
@@ -142,15 +156,19 @@
         "year": 2020,
         "entries": [
           {
+            "orientation": "left",
             "type": "training",
             "img": "fas fa-graduation-cap me-2",
             "title": "Roboterschulung",
             "details": [
-              "ABB IRC5-UMS-RF Umsteigerkurs für Roboterfachleute, ABB Schulungszentrum Friedberg"
+              "ABB IRC5-UMS-RF Umsteigerkurs für Roboterfachleute",
+              "Ort: ABB Schulungszentrum Friedberg"
             ]
           },
           {
+            "orientation": "right",
             "type": "job",
+            "img": "fas fa-tools me-2",
             "title": "Softwareentwickler bei Lasco Umformtechnik GmbH",
             "details": [
               "Entwicklung von Desktop-Anwendungen mit WPF und C# (.NET, Visual Studio)",
@@ -165,7 +183,9 @@
         "year": 2022,
         "entries": [
           {
+            "orientation": "left",
             "type": "job",
+            "img": "fas fa-tools me-2",
             "title": "Fullstack Softwareentwickler – Zwerrenz Automatisierungstechnik GmbH, Suhl",
             "details": [
               "Entwicklung von Softwarelösungen mit LabVIEW",
@@ -183,15 +203,19 @@
         "year": 2024,
         "entries": [
           {
+            "orientation": "right",
             "type": "training",
             "img": "fas fa-graduation-cap me-2",
             "title": "Weiterbildung – KUKA Roboterprogrammierung",
             "details": [
-              "Teilnahme am KUKA KR C5 Umsteigerkurs, KUKA College Augsburg"
+              "Teilnahme am KUKA KR C5 Umsteigerkurs",
+              "Ort: KUKA College Augsburg"
             ]
           },
           {
+            "orientation": "left",
             "type": "job",
+            "img": "fas fa-tools me-2",
             "title": "Senior Fullstack Softwareentwickler – LIVA Power Management Systems GmbH, Karlsruhe",
             "details": [
               "Entwicklung moderner Anwendungen mit JetBrains Rider und Visual Studio Code",
