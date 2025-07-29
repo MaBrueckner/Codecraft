@@ -12,6 +12,8 @@ function getLanguageCookie() {
 // Sprache laden und Texte aktualisieren
 function loadLanguage(lang) {
     setLanguageCookie(lang);
+    updateLogo(lang); // Logo aktualisieren
+    highlightCurrentLanguage(lang); // Aktuelle Sprache hervorheben
 
     fetch(`lang/${lang}.json`)
         .then(response => response.json())
@@ -31,6 +33,28 @@ function updateTexts(translations) {
             el.textContent = translations[key];
         }
     });
+}
+
+// Aktuelle Sprache hervorheben
+function highlightCurrentLanguage(lang) {
+    document.querySelectorAll('.dropdown ul li a').forEach(link => {
+        link.classList.remove('active-language'); // Entferne vorherige Markierung
+        if (link.getAttribute('onclick')?.includes(`loadLanguage('${lang}')`)) {
+            link.classList.add('active-language'); // Markiere aktuelle Sprache
+        }
+    });
+}
+
+// Logo aktualisieren
+function updateLogo(lang) {
+    const logo = document.getElementById("logo");
+    if (logo) {
+        if (lang === 'de') {
+            logo.src = 'img/logo_h_de.svg';
+        } else {
+            logo.src = `img/logo_h_int.svg`;
+        }
+    }
 }
 
 // Beim Laden der Seite Sprache aus Cookie laden

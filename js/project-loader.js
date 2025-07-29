@@ -1,4 +1,5 @@
 async function loadProjectsFromJSON(language = "de") {
+    language = getLanguageCookie() || "de";
     try {
         const response = await fetch(`./lang/${language}_projects.json`);
         if (!response.ok) throw new Error("JSON konnte nicht geladen werden.");
