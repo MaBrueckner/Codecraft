@@ -1,4 +1,5 @@
 User-agent: *
+Crawl-delay: 10
 Allow: /
 
 Sitemap: https://mabrueckner.github.io/Codecraft/sitemap.xml
