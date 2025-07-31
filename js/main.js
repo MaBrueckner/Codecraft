@@ -1,3 +1,26 @@
+let typedInstance = null;
+
+function initTyped() {
+    const el = document.querySelector('.typed');
+    if (!el) return;
+
+    const items = el.getAttribute('data-typed-items')
+        .split(',')
+        .map(item => item.trim());
+
+    if (typedInstance) {
+        typedInstance.destroy();
+    }
+
+    typedInstance = new Typed('.typed', {
+        strings: items,
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 2000
+    });
+}
+
 (function () {
     "use strict";
 
@@ -54,7 +77,7 @@
         });
     }
     window.addEventListener('load', aosInit);
-
+/*
     const selectTyped = document.querySelector('.typed');
     if (selectTyped) {
         let typed_strings = selectTyped.getAttribute('data-typed-items');
@@ -67,6 +90,8 @@
             backDelay: 2000
         });
     }
+*/
+    initTyped();
 
     let skillsAnimation = document.querySelectorAll('.skills-animation');
     skillsAnimation.forEach((item) => {

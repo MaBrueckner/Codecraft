@@ -26,7 +26,7 @@
   "home": {
     "title": "Willkommen bei Brückner Codecraft!",
     "subtitle": "Kreative Softwarelösungen aus Suhl",
-    "text": "UI/UX Designer, Entwickler maßgeschneiderter Software, Automatisierungsexperte, Robotik-Enthusiast, Freelancer für Ihr Projekt"
+    "text": ["UI/UX Designer", "Entwickler maßgeschneiderter Software", "Automatisierungsexperte", "Robotik-Enthusiast", "Freelancer für Ihr Projekt"]
   },
   "about": {
     "title": "Über mich",

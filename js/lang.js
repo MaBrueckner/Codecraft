@@ -20,6 +20,7 @@ function loadLanguage(lang) {
         .then(response => response.json())
         .then(data => {
             updateTexts(data);
+            initTyped(); // Typed Text initialisieren
             loadResume(lang); // Lebenslauf laden
         })
         .catch(error => {
@@ -41,7 +42,7 @@ function updateTexts(translations) {
                     el.setAttribute("data-typed-items", value.join(", "));
                 }
                 else {
-                    el.textContent = value;
+                    el.innerHTML = value;
                 }
             }
         }

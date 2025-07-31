@@ -26,7 +26,7 @@
   "home": {
     "title": "Welcome to Bruckner Codecraft!",
     "subtitle": "Creative software solutions from Suhl",
-    "text": "UI/UX designer, developer of custom software, automation expert, robotics enthusiast, freelancer for your project"
+    "text": ["UI/UX designer", "developer of custom software", "automation expert", "robotics enthusiast", "freelancer for your project"]
   },
   "about": {
     "title": "About Me",
