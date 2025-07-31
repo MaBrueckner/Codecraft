@@ -13,6 +13,7 @@ function getLanguageCookie() {
 function loadLanguage(lang) {
     setLanguageCookie(lang);
     updateLogo(lang); // Logo aktualisieren
+    reloadProject(); // Projekte neu laden
     highlightCurrentLanguage(lang); // Aktuelle Sprache hervorheben
 
     fetch(`lang/${lang}.json`)

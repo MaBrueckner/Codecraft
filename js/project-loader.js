@@ -1,5 +1,17 @@
+// Cookie setzen
+function setProjectCookie(projectId) {
+    document.cookie = `project=${projectId}; path=/; max-age=31536000`; // 1 Jahr gültig
+}
+
+// Cookie lesen
+function getProjectCookie() {
+    const match = document.cookie.match(/(^| )project=([^;]+)/);
+    return match ? match[2] : null;
+}
+
 async function loadProjectsFromJSON(language = "de") {
     language = getLanguageCookie() || "de";
+
     try {
         const response = await fetch(`./lang/${language}_projects.json`);
         if (!response.ok) throw new Error("JSON konnte nicht geladen werden.");
@@ -14,6 +26,8 @@ async function loadProjectsFromJSON(language = "de") {
 function renderProject(projectId, projectData) {
     const container = document.getElementById("projectContainer");
     container.innerHTML = ""; // Inhalt zurücksetzen
+
+    setProjectCookie(projectId); // Cookie setzen
 
     if (!projectData[projectId]) {
         container.innerHTML = "<p>Projekt nicht gefunden.</p>";
@@ -66,7 +80,7 @@ function renderProject(projectId, projectData) {
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
-    const language = "de"; // z. B. dynamisch änderbar für Mehrsprachigkeit
+    const language = getLanguageCookie() || "de"; // z. B. dynamisch änderbar für Mehrsprachigkeit
     const projects = await loadProjectsFromJSON(language);
 
     const dropdownLinks = document.querySelectorAll(".dropdown ul li a[data-id]");
@@ -84,3 +98,16 @@ document.addEventListener("DOMContentLoaded", async () => {
         renderProject(firstProjectId, projects);
     }
 });
+
+function reloadProject() {
+    const language = getLanguageCookie() || "de";
+    const projectId = getProjectCookie();
+    
+    if (projectId) {
+        loadProjectsFromJSON(language).then(projects => {
+            renderProject(projectId, projects);
+        });
+    } else {
+        console.warn("Kein Projekt ausgewählt.");
+    }
+}
