@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brückner Codecraft – Individuelle Softwareentwicklung & Lösungen nach Maß</title>
-    <meta name="description" content="Brückner Codecraft entwickelt maßgeschneiderte Softwarelösungen – von technischer Automatisierung über Benutzeroberflächen bis zu individuellen Anwendungen für verschiedenste Branchen.">
-    <meta name="keywords" content="Softwareentwicklung, Codecraft, grafische Programmierung, LabVIEW, WPF, .net, C#, TIA-Portal, KUKA, Stäubli, Staubli, ABB, Roboter, Robots, Universal Robot, UR, Blazor">
-    <meta name="author" content="Maik Brückner">
+    <title id="head-title">Brückner Codecraft – Individuelle Softwareentwicklung & Lösungen nach Maß</title>
+    <meta name="description" id="head-description" content="Brückner Codecraft entwickelt maßgeschneiderte Softwarelösungen – von technischer Automatisierung über Benutzeroberflächen bis zu individuellen Anwendungen für verschiedenste Branchen.">
+    <meta name="keywords" id="head-keywords" content="Softwareentwicklung, Codecraft, grafische Programmierung, LabVIEW, WPF, .net, C#, TIA-Portal, KUKA, Stäubli, Staubli, ABB, Roboter, Robots, Universal Robot, UR, Blazor">
+    <meta name="author" id="head-author" content="Maik Brückner">
 
     <meta property="og:title" content="Brückner Codecraft – Individuelle Softwareentwicklung & Lösungen nach Maß">
     <meta property="og:description" content="Maßgeschneiderte Softwarelösungen für individuelle Anforderungen – von funktional bis interaktiv.">
@@ -65,24 +65,24 @@
             <!-- Navmenu -->
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="#home" class="active">Startseite<br></a></li>
-                    <li><a href="#about">Über mich</a></li>
-                    <li><a href="#resume">Lebenslauf</a></li>
-                    <li class="dropdown"><a href="#projects"><span>Projekte</span> <i
+                    <li><a href="#home" class="active" id="nav-home">Startseite<br></a></li>
+                    <li><a href="#about" id="nav-about">Über mich</a></li>
+                    <li><a href="#resume" id="nav-resume">Lebenslauf</a></li>
+                    <li class="dropdown"><a href="#projects" id="nav-projects"><span>Projekte</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#projects" data-id="project-grainlab">Grainlab – Weizensortierung mit KI</a></li>
-                            <li><a href="#projects" data-id="project-matrixkit">Matrixkit LED-Scheinwerfer</a></li>
-                            <li><a href="#projects" data-id="project-fuellstand">Füllstandüberwachung</a></li>
-                            <li><a href="#projects" data-id="project-biled">BiLED – LED-Scheinwerfer Justage</a></li>
-                            <li><a href="#projects" data-id="project-matrixkitv2">Matrixkit V2</a></li>
-                            <li><a href="#projects" data-id="project-pressenumbau">Pressenumbau</a></li>
-                            <li><a href="#projects" data-id="project-zeiterfassung">Zeiterfassung</a></li>
-                            <li><a href="#projects" data-id="project-datagrabber">DataGrabber</a></li>
+                            <li><a href="#projects" data-id="project-grainlab" id="nav-project-grainlab">Grainlab – Weizensortierung mit KI</a></li>
+                            <li><a href="#projects" data-id="project-matrixkit" id="nav-project-matrixkit">Matrixkit LED-Scheinwerfer</a></li>
+                            <li><a href="#projects" data-id="project-fuellstand" id="nav-project-fuellstand">Füllstandüberwachung</a></li>
+                            <li><a href="#projects" data-id="project-biled" id="nav-project-biled">BiLED – LED-Scheinwerfer Justage</a></li>
+                            <li><a href="#projects" data-id="project-matrixkitv2" id="nav-project-matrixkitv2">Matrixkit V2</a></li>
+                            <li><a href="#projects" data-id="project-pressenumbau" id="nav-project-pressenumbau">Pressenumbau</a></li>
+                            <li><a href="#projects" data-id="project-zeiterfassung" id="nav-project-zeiterfassung">Zeiterfassung</a></li>
+                            <li><a href="#projects" data-id="project-datagrabber" id="nav-project-datagrabber">DataGrabber</a></li>
                         </ul>
                     </li>
-                    <li><a href="#contact">Kontakt</a></li>
-                    <li><a href="#notice">Impressum</a></li>
+                    <li><a href="#contact" id="nav_contact">Kontakt</a></li>
+                    <li><a href="#notice" id="nav_notice">Impressum</a></li>
 
                     <!-- Sprachumschaltung -->
                     <li class="dropdown">
@@ -106,12 +106,13 @@
     <main>
         <!-- Home Section -->
         <section id="home" class="home section dark-background">
-            <img src="img/bg.png" alt="" data-aos="fade-in">
+            <img src="img/bg.png" alt="Backgroundimage" data-aos="fade-in">
 
             <div class="container d-flex flex-column align-items-center justify-content-center text-center"
                 data-aos="fade-up" data-aos-delay="100">
-                <h2>Willkommen! Ich bin Maik Brückner</h2>
-                <p><span class="typed"
+                <h2 id="home-title">Willkommen bei Brückner Codecraft!</h2>
+                <h3 id="home-subtitle">Kreative Softwarelösungen aus Suhl</h3>
+                <p><span class="typed" id="home-text"
                         data-typed-items="UI/UX Designer, Entwickler maßgeschneiderter Software, Automatisierungsexperte, Robotik-Enthusiast, Freelancer für Ihr Projekt"></span>
                 </p>
             </div>
@@ -125,11 +126,11 @@
 
                         <div class="row justify-content-between gy-4">
                             <div class="col-lg-5">
-                                <img src="img/me.png" class="img-fluid" alt="">
+                                <img src="img/me.png" class="img-fluid" alt="Selfie">
                             </div>
                             <div class="col-lg-7 about-info">
                                 <p><strong>Name: </strong> <span>Maik Brückner</span></p>
-                                <p><strong>Profil: </strong> <span>Full Stack Entwickler</span></p>
+                                <p><strong id="about-profile">Profil: </strong> <span id="about-description">Full Stack Entwickler</span></p>
                                 <p><strong>Email: </strong> <span>maik.brueckner@brueckner-codecraft.com</span></p>
                             </div>
                         </div>
@@ -232,22 +233,14 @@
                                         aria-valuemax="100"></div>
                                 </div>
                             </div><!-- End Skills Item -->
-
-                            <div class="progress">
-                                <span class="skill"><span>Excel</span> <i class="val">100%</i></span>
-                                <div class="progress-bar-wrap">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                                        aria-valuemax="100"></div>
-                                </div>
-                            </div><!-- End Skills Item -->
                         </div>
 
                     </div>
 
                     <div class="col-md-6">
                         <div class="about-me">
-                            <h4>Über mich</h4>
-                            <p>Seit über einem Jahrzehnt bin ich als Softwareentwickler im professionellen Umfeld tätig
+                            <h4 id="about-title">Über mich</h4>
+                            <p id="about-text1">Seit über einem Jahrzehnt bin ich als Softwareentwickler im professionellen Umfeld tätig
                                 – meine
                                 Leidenschaft für Technik begann jedoch schon viel früher: Mit 15 Jahren programmierte
                                 ich erste
@@ -259,7 +252,7 @@
                                 TIA-Portal
                                 reicht.
                             </p>
-                            <p>Mein Schwerpunkt liegt im Sondermaschinenbau, insbesondere in der Prozessautomatisierung.
+                            <p id="about-text2">Mein Schwerpunkt liegt im Sondermaschinenbau, insbesondere in der Prozessautomatisierung.
                                 Ich
                                 übernehme sowohl die Entwicklung einzelner Komponenten als auch die vollständige
                                 Umsetzung ganzer
@@ -271,7 +264,7 @@
                                 Lösung –
                                 technologieoffen, strukturiert und lösungsorientiert.
                             </p>
-                            <p>Aktuell suche ich spannende Remote-Projekte, die ich flexibel neben meiner Festanstellung
+                            <p id="about-text3">Aktuell suche ich spannende Remote-Projekte, die ich flexibel neben meiner Festanstellung
                                 realisieren kann – sei es als Zuarbeit oder als eigenständige Entwicklung. Ich arbeite
                                 zuverlässig, mit schneller Einarbeitung und einem klaren Fokus auf den Kundennutzen.
                                 Wenn Sie
@@ -288,8 +281,8 @@
         <!-- Resume Section -->
         <section id="resume" class="section">
             <div class="container section-title" data-aos="fade-up">
-                <h2>Lebenslauf</h2>
-                <p>Mein beruflicher Werdegang im Überblick</p>
+                <h2 id="resume-title">Lebenslauf</h2>
+                <p id="resume-subtitle">Mein beruflicher Werdegang im Überblick</p>
             </div>
             <div id="resume-container" class="container" data-aos="fade-up"></div>
         </section>
@@ -302,8 +295,8 @@
         <!-- Contact Section -->
         <section id="contact" class="contact section">
             <div class="container section-title" data-aos="fade-up">
-                <h2>Kontakt</h2>
-                <p>Lassen Sie uns gemeinsam herausfinden, wie ich Sie bei Ihrem Vorhaben unterstützen kann. Ich melde
+                <h2 id="contact-title">Kontakt</h2>
+                <p id="contact-text">Lassen Sie uns gemeinsam herausfinden, wie ich Sie bei Ihrem Vorhaben unterstützen kann. Ich melde
                     mich schnellstmöglich zurück.</p>
             </div>
 
@@ -315,8 +308,8 @@
                             <div class="info-item d-flex align-items-center">
                                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                                 <div>
-                                    <h3>Anschrift</h3>
-                                    <p>Friesenstraße 10, 98529 Suhl</p>
+                                    <h3 id="contact-location">Anschrift</h3>
+                                    <p>Friesenstraße 10, DE 98529 Suhl</p>
                                 </div>
                             </div>
                         </div><!-- End Info Item -->
@@ -325,7 +318,7 @@
                             <div class="info-item d-flex align-items-center">
                                 <i class="bi bi-envelope flex-shrink-0"></i>
                                 <div>
-                                    <h3>E-Mail an uns</h3>
+                                    <h3 id="contact-email">E-Mail an uns</h3>
                                     <p>info@bruckner-codecraft.com</p>
                                 </div>
                             </div>
@@ -356,11 +349,11 @@
                         </div>
 
                         <div class="col-md-12 text-center">
-                            <div class="loading">Laden</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Ihre Nachricht wurde verschickt. Vielen Dank!</div>
+                            <div class="loading" id="contact-loadingMessage">Laden</div>
+                            <div class="error-message" id="contact-errorMessage"></div>
+                            <div class="sent-message" id="contact-sentMessage">Ihre Nachricht wurde verschickt. Vielen Dank!</div>
 
-                            <button type="submit">Nachricht senden</button>
+                            <button type="submit" id="contact-submitButton">Nachricht senden</button>
                         </div>
 
                     </div>
@@ -371,26 +364,26 @@
         <!-- Contact Section -->
         <section id="notice" class="notice section">
             <div class="container" data-aos="fade-up">
-                <h4>Impressum</h4>
-                <h5>Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz):</h5>
+                <h4 id="notice-title">Impressum</h4>
+                <h5 id="notice-law1">Angaben gemäß § 5 DDG (Digitale-Dienste-Gesetz):</h5>
                 <h6>Brückner Codecraft</h6>
                 <p>Maik Brückner<br>
                     Friesenstraße 10<br>
                     98529 Suhl<br>
                     Deutschland<br>
                 </p>
-                <h6>Kontakt:</h6>
+                <h6 id="notice-contact">Kontakt:</h6>
                 <p>E-Mail: info@bruckner-codecraft.com</p>
-                <h6>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:</h6>
+                <h6 id="notice-law2">Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:</h6>
                 <p>Maik Brückner<br>
                     Friesenstraße 10<br>
                     98529 Suhl<br>
                     Deutschland<br>
                 </p>
-                <h6>Hinweis zur Umsatzsteuer:</h6>
-                <p>Gemäß § 19 UStG wird keine Umsatzsteuer erhoben und daher auch nicht ausgewiesen.</p>
-                <h6>Berufliche Tätigkeit:</h6>
-                <p>Freiberuflicher Softwareentwickler.<br>
+                <h6 id="notice-taxDisclaimer">Hinweis zur Umsatzsteuer:</h6>
+                <p id="notice-law3">Gemäß § 19 UStG wird keine Umsatzsteuer erhoben und daher auch nicht ausgewiesen.</p>
+                <h6 id="notice-workField">Berufliche Tätigkeit:</h6>
+                <p id="notice-workFieldDescription">Freiberuflicher Softwareentwickler.<br>
                     Die Website dient ausschließlich der Präsentation meiner Dienstleistungen und der
                     Kontaktaufnahme.<br>
                     Es erfolgt kein Verkauf von Waren oder Produkten.

@@ -16,10 +16,11 @@ function loadLanguage(lang) {
     reloadProject(); // Projekte neu laden
     highlightCurrentLanguage(lang); // Aktuelle Sprache hervorheben
 
-    fetch(`lang/${lang}.json`)
+    fetch(`./lang/${lang}.json`)
         .then(response => response.json())
         .then(data => {
             updateTexts(data);
+            loadResume(lang); // Lebenslauf laden
         })
         .catch(error => {
             console.error("Fehler beim Laden der Sprachdatei:", error);
@@ -28,12 +29,23 @@ function loadLanguage(lang) {
 
 // Texte auf der Seite aktualisieren
 function updateTexts(translations) {
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        if (translations[key]) {
-            el.textContent = translations[key];
+    for (const section in translations) {
+        const fields = translations[section];
+        for (const field in fields) {
+            const id = `${section}-${field}`;
+            const el = document.getElementById(id);
+            const value = fields[field];
+
+            if (el) {
+                if (id === "home-text") {
+                    el.setAttribute("data-typed-items", value.join(", "));
+                }
+                else {
+                    el.textContent = value;
+                }
+            }
         }
-    });
+    }
 }
 
 // Aktuelle Sprache hervorheben

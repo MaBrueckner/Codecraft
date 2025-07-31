@@ -5,16 +5,32 @@
     "resume": "Lebenslauf",
     "projects": "Projekte",
     "contact": "Kontakt",
-    "imprint": "Impressum"
+    "notice": "Impressum",
+    "langDE": "Deutsch",
+    "langEN": "Englisch",
+    "project-grainlab": "Grainlab – Weizensortierung mit KI",
+    "project-matrixkit": "Matrixkit LED-Scheinwerfer",
+    "project-fuellstand": "Füllstandüberwachung",
+    "project-biled": "BiLED – LED-Scheinwerfer Justage",
+    "project-matrixkitv2": "Matrixkit V2",
+    "project-pressenumbau": "Pressenumbau",
+    "project-zeiterfassung": "Zeiterfassung",
+    "project-datagrabber": "DataGrabber"
+  },
+  "head": {
+    "title": "Brückner Codecraft – Individuelle Softwareentwicklung & Lösungen nach Maß",
+    "description": "Brückner Codecraft entwickelt maßgeschneiderte Softwarelösungen – von technischer Automatisierung über Benutzeroberflächen bis zu individuellen Anwendungen für verschiedenste Branchen.",
+    "keywords": "Softwareentwicklung, Codecraft, grafische Programmierung, LabVIEW, WPF, .net, C#, TIA-Portal, KUKA, Stäubli, Staubli, ABB, Roboter, Robots, Universal Robot, UR, Blazor",
+    "author": "Maik Brückner"
   },
   "home": {
-    "title": "Willkommen bei Codecraft! Ich bin Maik Brückner",
+    "title": "Willkommen bei Brückner Codecraft!",
     "subtitle": "Kreative Softwarelösungen aus Suhl",
     "text": "UI/UX Designer, Entwickler maßgeschneiderter Software, Automatisierungsexperte, Robotik-Enthusiast, Freelancer für Ihr Projekt"
   },
   "about": {
     "title": "Über mich",
-    "profile": "Profil",
+    "profile": "Profil: ",
     "description": "Full Stack Entwickler",
     "text1": "Seit über einem Jahrzehnt bin ich als Softwareentwickler im professionellen Umfeld tätig – meine Leidenschaft für Technik begann jedoch schon viel früher: Mit 15 Jahren programmierte ich erste Anwendungen auf dem C64, später mit Turbo Pascal auf einem 386er. Heute entwickle ich moderne Softwarelösungen für komplexe Automatisierungsprozesse – mit einem breiten technologischen Spektrum, das von C#, WPF und Blazor über LabVIEW bis hin zu SPS-Programmierung im TIA-Portal reicht.",
     "text2": "Mein Schwerpunkt liegt im Sondermaschinenbau, insbesondere in der Prozessautomatisierung. Ich übernehme sowohl die Entwicklung einzelner Komponenten als auch die vollständige Umsetzung ganzer Zellen – von der SPS über HMI bis zur Datenanbindung an ERP-Systeme. Dabei zeichnet mich meine Vielseitigkeit aus: Wo andere sich spezialisieren, verbinde ich Welten – ob Mikrocontroller in C, OPC UA, SQL-Datenbanken oder moderne UI/UX-Konzepte. Für jedes Problem finde ich eine Lösung – technologieoffen, strukturiert und lösungsorientiert.",
@@ -26,7 +42,7 @@
   },
   "contact": {
     "title": "Kontakt",
-    "subtitle": "Lassen Sie uns gemeinsam herausfinden, wie ich Sie bei Ihrem Vorhaben unterstützen kann. Ich melde mich schnellstmöglich zurück.",
+    "text": "Lassen Sie uns gemeinsam herausfinden, wie ich Sie bei Ihrem Vorhaben unterstützen kann. Ich melde mich schnellstmöglich zurück.",
     "location": "Anschrift",
     "email": "E-Mail an uns",
     "namePlaceholder": "Ihr Name",
@@ -34,13 +50,13 @@
     "subjectPlaceholder": "Betreff",
     "messagePlaceholder": "Ihre Nachricht",
     "submitButton": "Nachricht senden",
-    "successMessage": "Vielen Dank für Ihre Nachricht! Ich werde mich so schnell wie möglich bei Ihnen melden.",
+    "sentMessage": "Vielen Dank für Ihre Nachricht! Ich werde mich so schnell wie möglich bei Ihnen melden.",
     "errorMessage": "Beim Senden der Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.",
     "loadingMessage": "Laden..."
   },
-  "imprint": {
+  "notice": {
     "title": "Impressum",
-    "contact":"Kontakt",
+    "contact":"Kontakt:",
     "company": "Brückner Codecraft",
     "owner": "Maik Brückner",
     "address": "Friesenstraße 10<br>98529 Suhl<br>Deutschland",
@@ -49,8 +65,8 @@
     "law2": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV",
     "law3": "Gemäß § 19 UStG wird keine Umsatzsteuer erhoben und daher auch nicht ausgewiesen.",
     "taxId": "Umsatzsteuernummer: 123/456/78901",
-    "taxDisclaimer": "Hinweis zur Umsatzsteuer",
-    "workField": "Berufliche Tätigkeit",
+    "taxDisclaimer": "Hinweis zur Umsatzsteuer:",
+    "workField": "Berufliche Tätigkeit:",
     "workFieldDescription": "Freiberuflicher Softwareentwickler.<br>Die Website dient ausschließlich der Präsentation meiner Dienstleistungen und der Kontaktaufnahme.<br>Es erfolgt kein Verkauf von Waren oder Produkten."
   },
   "footer": {

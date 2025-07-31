@@ -103,7 +103,7 @@
       ]
     },
     "project-pressenumbau": {
-      "title": "Project Pressenumbau – Modernization of a 30-Year-Old Production System",
+      "title": "Project Press Conversion – Modernization of a 30-Year-Old Production System",
       "paragraphs": [
         "An old press for manufacturing cylinder pistons was modernized in several stages. First, the system was completely measured in 3D to accurately plan new hardware. Then, the entire system was virtually simulated to test control, motion sequences, and construction.",
         "The conversion and commissioning took place within a week. I was responsible for programming the three new ABB robots that replaced the old KUKA robots. The motion sequences had to be at least as fast and precise as before.",
@@ -111,7 +111,7 @@
       ]
     },
     "project-zeiterfassung": {
-      "title": "Project Zeiterfassung – Transition to Modern Technology with Existing Database",
+      "title": "Project Time Tracking – Transition to Modern Technology with Existing Database",
       "paragraphs": [
         "Since the manufacturer of the previous terminals no longer offered new devices, a new solution was developed that continues to work with the existing Firebird SQL database. The new application was implemented with .NET C# and WPF.",
         "I evaluated new hardware solutions to enable chip-based login. The new WPF interface is aligned with the corporate design and allows for intuitive operation. Employees can log in and out, book orders, and view their own performance data.",
