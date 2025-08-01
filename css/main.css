@@ -527,7 +527,7 @@ section,
 --------------------------------------------------------------*/
 .projects .container {
   background-color: var(--surface-color);
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  /*box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);  */
   padding: 30px;
 }
 
@@ -674,7 +674,7 @@ section,
 # Footer Section
 --------------------------------------------------------------*/
 .footer {
-  background: var(--heading-color);
+  background: #00000080; /*var(--heading-color);*/
   position: fixed;
   bottom: 0;
   width: 100%;
