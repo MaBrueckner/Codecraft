@@ -297,6 +297,10 @@ h6 {
         display: block;
         background-color: rgba(33, 37, 41, 0.03);
     }
+    
+    .navmenu .dropdown i.fa-globe {
+        color: #000; /* Schwarz */
+    }
 
     .mobile-nav-active {
         overflow: hidden;
