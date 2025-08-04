@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $recipient = "kontak@bruckner-codecraft.com";
+    $recipient = "info@bruckner-codecraft.com";
     $email_subject = "Neue Kontaktanfrage von $name";
     $email_content = "Name: $name
 ";
