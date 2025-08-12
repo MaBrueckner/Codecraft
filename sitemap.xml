@@ -6,4 +6,7 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url><loc>https://bruckner-codecraft.com/#leistungen</loc><priority>0.8</priority></url>
+  <url><loc>https://bruckner-codecraft.com/#projekte</loc><priority>0.7</priority></url>
+  <url><loc>https://bruckner-codecraft.com/#impressum</loc><priority>0.1</priority></url>
 </urlset>
