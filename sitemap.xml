@@ -1,9 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Startseite (SPA) -->
   <url>
-    <loc>https://mabrueckner.github.io/Codecraft/</loc>
-    <lastmod>2025-08-04</lastmod>
+    <loc>https://bruckner-codecraft.com/</loc>
+    <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- FAQ -->
+  <url>
+    <loc>https://bruckner-codecraft.com/de/faq.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/faq.html"/>
+  </url>
+  <url>
+    <loc>https://bruckner-codecraft.com/en/faq.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/faq.html"/>
+  </url>
+
+  <!-- Projekt: Grainlab -->
+  <url>
+    <loc>https://bruckner-codecraft.com/de/grainlab.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/grainlab.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/grainlab.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/grainlab.html"/>
+  </url>
+  <url>
+    <loc>https://bruckner-codecraft.com/en/grainlab.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/grainlab.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/grainlab.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/grainlab.html"/>
+  </url>
+
+  <!-- Projekt: Matrixkit LED-Scheinwerfer -->
+  <url>
+    <loc>https://bruckner-codecraft.com/de/matrixkit.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/matrixkit.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/matrixkit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/matrixkit.html"/>
+  </url>
+  <url>
+    <loc>https://bruckner-codecraft.com/en/matrixkit.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/matrixkit.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/matrixkit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/matrixkit.html"/>
+  </url>
+
+  <!-- Projekt: Füllstandüberwachung -->
+  <url>
+    <loc>https://bruckner-codecraft.com/de/fuellstand.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/fuellstand.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/fuellstand.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/fuellstand.html"/>
+  </url>
+  <url>
+    <loc>https://bruckner-codecraft.com/en/fuellstand.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/fuellstand.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/fuellstand.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/fuellstand.html"/>
+  </url>
+
+  <!-- Projekt: BiLED -->
+  <url>
+    <loc>https://bruckner-codecraft.com/de/biled.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/biled.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/biled.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/biled.html"/>
+  </url>
+  <url>
+    <loc>https://bruckner-codecraft.com/en/biled.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/biled.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/biled.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/biled.html"/>
+  </url>
+
+  <!-- Projekt: Matrixkit V2 -->
+  <url>
+    <loc>https://bruckner-codecraft.com/de/matrixkitv2.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/matrixkitv2.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/matrixkitv2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/matrixkitv2.html"/>
+  </url>
+  <url>
+    <loc>https://bruckner-codecraft.com/en/matrixkitv2.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/matrixkitv2.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/matrixkitv2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/matrixkitv2.html"/>
+  </url>
+
+  <!-- Projekt: Pressenumbau -->
+  <url>
+    <loc>https://bruckner-codecraft.com/de/pressenumbau.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/pressenumbau.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/pressenumbau.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/pressenumbau.html"/>
+  </url>
+  <url>
+    <loc>https://bruckner-codecraft.com/en/pressenumbau.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/pressenumbau.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/pressenumbau.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/pressenumbau.html"/>
+  </url>
+
+  <!-- Projekt: Zeiterfassung -->
+  <url>
+    <loc>https://bruckner-codecraft.com/de/zeiterfassung.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/zeiterfassung.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/zeiterfassung.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/zeiterfassung.html"/>
+  </url>
+  <url>
+    <loc>https://bruckner-codecraft.com/en/zeiterfassung.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/zeiterfassung.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/zeiterfassung.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/zeiterfassung.html"/>
+  </url>
+
+  <!-- Projekt: DataGrabber -->
+  <url>
+    <loc>https://bruckner-codecraft.com/de/datagrabber.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/datagrabber.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/datagrabber.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/datagrabber.html"/>
+  </url>
+  <url>
+    <loc>https://bruckner-codecraft.com/en/datagrabber.html</loc>
+    <lastmod>2026-06-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/de/datagrabber.html"/>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/datagrabber.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/de/datagrabber.html"/>
+  </url>
+
 </urlset>

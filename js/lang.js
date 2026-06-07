@@ -21,7 +21,7 @@ function loadLanguage(lang) {
         .then(data => {
             updateTexts(data);
             initTyped(); // Typed Text initialisieren
-            loadResume(lang); // Lebenslauf laden
+            //loadResume(lang); // Lebenslauf laden
         })
         .catch(error => {
             console.error("Fehler beim Laden der Sprachdatei:", error);

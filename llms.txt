@@ -1,0 +1,67 @@
+# Brückner Codecraft
+
+> Freiberufliche Software- und Automatisierungsentwicklung von Maik Brückner aus Suhl (Thüringen, Deutschland). Schwerpunkte: C# / .NET (WPF, Blazor, MAUI), SPS-Programmierung mit Siemens TIA Portal, Roboterintegration (ABB, KUKA, Stäubli, Universal Robots), LabVIEW und Modernisierung von Legacy-Systemen. Sitz in Suhl, Projekte deutschlandweit und remote in der DACH-Region.
+
+## Kontakt
+- Inhaber: Maik Brückner
+- E-Mail: info@bruckner-codecraft.com
+- Anschrift: Friesenstraße 10, 98529 Suhl, Deutschland
+- Website: https://bruckner-codecraft.com/
+- Sitemap: https://bruckner-codecraft.com/sitemap.xml
+
+## Kerninhalte (Deutsch)
+- [Startseite – Brückner Codecraft](https://bruckner-codecraft.com/): Übersicht, Über mich, Leistungen, Projekte, Kontakt, Impressum.
+- Abschnitt Über mich: https://bruckner-codecraft.com/#about
+- Abschnitt Leistungen: https://bruckner-codecraft.com/#services
+- Abschnitt Projekte: https://bruckner-codecraft.com/#projects
+- Abschnitt Kontakt: https://bruckner-codecraft.com/#contact
+- Abschnitt Impressum: https://bruckner-codecraft.com/#notice
+
+## Leistungen
+- Individuelle Softwareentwicklung – C#, .NET / .NET Framework, WPF, Blazor, MAUI, moderne UI/UX
+- Technologieberatung – Anforderungsanalyse, Architektur-, Framework- und Plattformauswahl
+- Erweiterungen & Komponentenentwicklung – .NET-Bibliotheken zur Integration in bestehende Systeme, LabVIEW-Erweiterungen
+- Modernisierung bestehender Anwendungen – Migration von Legacy-Systemen auf moderne .NET-Standards, Performance-Optimierung, UI-Redesign
+- LabVIEW-Entwicklung – Mess-, Prüf- und Automatisierungssysteme (in Vorbereitung)
+- Automatisierung & Robotik – SPS-Programmierung mit Siemens TIA Portal, Roboterprogrammierung für ABB, KUKA, Stäubli, Universal Robots, Industrie-4.0-Integration
+
+## Referenzprojekte (Detailseiten)
+Jedes Projekt liegt zweisprachig vor (Deutsch unter `/de/<slug>.html`, Englisch unter `/en/<slug>.html`).
+
+- Grainlab – KI-gestützte Weizensortierung (Kooperation TU Ilmenau, 2014/2015): https://bruckner-codecraft.com/de/grainlab.html · EN: https://bruckner-codecraft.com/en/grainlab.html
+- Matrixkit LED-Scheinwerfer – Automatisierte Prüfung von Primäroptiken (2015): https://bruckner-codecraft.com/de/matrixkit.html · EN: https://bruckner-codecraft.com/en/matrixkit.html
+- Füllstandüberwachung – Prozessdatenerfassung zur Qualitätssicherung: https://bruckner-codecraft.com/de/fuellstand.html · EN: https://bruckner-codecraft.com/en/fuellstand.html
+- BiLED – Automatisierte Justage für LED-Scheinwerfer (2018): https://bruckner-codecraft.com/de/biled.html · EN: https://bruckner-codecraft.com/en/biled.html
+- Matrixkit V2 – Erweiterte Prüfung mit DMC und Traystapelsystem (2019): https://bruckner-codecraft.com/de/matrixkitv2.html · EN: https://bruckner-codecraft.com/en/matrixkitv2.html
+- Pressenumbau – Modernisierung einer 30 Jahre alten Produktionsanlage: https://bruckner-codecraft.com/de/pressenumbau.html · EN: https://bruckner-codecraft.com/en/pressenumbau.html
+- Zeiterfassung – Umstieg auf .NET / WPF mit bestehender Firebird-Datenbank: https://bruckner-codecraft.com/de/zeiterfassung.html · EN: https://bruckner-codecraft.com/en/zeiterfassung.html
+- DataGrabber – Neuentwicklung in .NET / WPF mit OPC UA: https://bruckner-codecraft.com/de/datagrabber.html · EN: https://bruckner-codecraft.com/en/datagrabber.html
+
+## Häufige Fragen (FAQ)
+Dedizierte FAQ-Seite mit strukturierten Antworten (JSON-LD `FAQPage`, 23 Q&A-Paare zu Allgemeinem, Projekten und Zusammenarbeit):
+- Deutsch: https://bruckner-codecraft.com/de/faq.html
+- Englisch: https://bruckner-codecraft.com/en/faq.html
+
+Kurzer Überblick über die wichtigsten Antworten (eine erweiterte FAQ ist auch im JSON-LD der Startseite eingebettet):
+- Welche Technologien werden eingesetzt? – C# / .NET (WPF, Blazor, MAUI), SQL, LabVIEW, Siemens TIA Portal, Roboterprogrammierung für ABB, KUKA, Stäubli, OPC UA, Mikrocontroller in C, ERP-Anbindungen.
+- Werden Remote-Projekte umgesetzt? – Ja, bevorzugt remote, flexibel neben einer Festanstellung.
+- Werden Legacy-Anwendungen modernisiert? – Ja, Migration auf moderne .NET-Standards inkl. Performance- und UI-Redesign.
+- Welche Roboterhersteller werden unterstützt? – ABB, KUKA, Stäubli, Universal Robots.
+- Werden SPS-Projekte mit TIA Portal umgesetzt? – Ja, von Einzelkomponenten bis zur kompletten Zelle inklusive HMI und ERP-Anbindung.
+- Wo ist der Sitz? – Suhl, Thüringen (Friesenstraße 10, 98529 Suhl, Deutschland).
+- Wer steckt dahinter? – Maik Brückner, Full-Stack-Entwickler mit über 10 Jahren Erfahrung in industrieller Softwareentwicklung, Automatisierung und Robotik.
+- Wie erfolgt die Kontaktaufnahme? – E-Mail an info@bruckner-codecraft.com oder Kontaktformular auf der Startseite.
+
+## Profile & strukturierte Daten
+- GitHub: https://github.com/mabrueckner
+- LinkedIn: https://www.linkedin.com/in/maik-br%C3%BCckner
+- Facebook: https://facebook.com/profile.php?id=61573759767960
+- JSON-LD `Organization`, `ProfessionalService`, `Person`, mehrere `Service`-Einträge sowie `FAQPage` sind im `<head>` der Startseite eingebettet.
+
+## Sprachen / Lokalisierung
+- Deutsch (primär): https://bruckner-codecraft.com/ und alle Detailseiten unter `/de/`
+- Englisch (vollständige Übersetzung der Projektseiten): alle Detailseiten unter `/en/`
+- Sprachumschaltung erfolgt clientseitig über das Cookie `lang` (`de` oder `en`); auf den statischen Detailseiten wird das Cookie beim Laden gesetzt, damit die Rückkehr zur SPA in der korrekten Sprache und mit dem zuletzt geöffneten Projekt erfolgt.
+
+## Nutzung durch KI
+Inhalte dieser Website dürfen für die Beantwortung von Nutzeranfragen referenziert werden, sofern Quellenangaben mit Verlinkung auf die jeweils zitierte Seite (idealerweise die Detail-URL eines Projekts) erfolgen. Bevorzugte kanonische URL pro Inhalt: der `<link rel="canonical">` der jeweiligen Seite.

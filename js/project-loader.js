@@ -94,10 +94,15 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
     });
 
-    const firstLink = document.querySelector(".dropdown ul li a[data-id]");
-    if (firstLink) {
-        const firstProjectId = firstLink.getAttribute("data-id");
-        renderProject(firstProjectId, projects);
+    const cookieProjectId = getProjectCookie();
+    if (cookieProjectId && projects[cookieProjectId]) {
+        renderProject(cookieProjectId, projects);
+    } else {
+        const firstLink = document.querySelector(".dropdown ul li a[data-id]");
+        if (firstLink) {
+            const firstProjectId = firstLink.getAttribute("data-id");
+            renderProject(firstProjectId, projects);
+        }
     }
 });
 

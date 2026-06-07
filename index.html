@@ -4,51 +4,369 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="head-title">Brückner Codecraft – Individuelle Softwareentwicklung & Lösungen nach Maß</title>
-    <meta name="description" id="head-description" content="Brückner Codecraft entwickelt maßgeschneiderte Softwarelösungen – von technischer Automatisierung über Benutzeroberflächen bis zu individuellen Anwendungen für verschiedenste Branchen.">
-    <meta name="keywords" id="head-keywords" content="Softwareentwicklung, Codecraft, grafische Programmierung, LabVIEW, WPF, .net, C#, TIA-Portal, KUKA, Stäubli, Staubli, ABB, Roboter, Robots, Universal Robot, UR, Blazor">
+    
+    <!-- Primäre SEO-Tags -->
+    <title id="head-title">Brückner Codecraft – Automation & .NET | Code trifft Maschine</title>
+    <meta name="description" id="head-description" content="Individuelle .NET- und SPS-Softwarelösungen für smarte Automatisierung aus Suhl. Code, der Maschinen zum Leben erweckt – präzise, innovativ, zuverlässig.">
     <meta name="author" id="head-author" content="Maik Brückner">
+    <meta name="robots" content="index,follow,max-image-preview:large">
 
-    <meta property="og:title" content="Brückner Codecraft – Individuelle Softwareentwicklung & Lösungen nach Maß">
-    <meta property="og:description" content="Maßgeschneiderte Softwarelösungen für individuelle Anforderungen – von funktional bis interaktiv.">
-    <meta property="og:image" content="https://mabrueckner.github.io/Codecraft/img/preview.png"> <!-- Bild 1200x630 -->
-    <meta property="og:url" content="https://mabrueckner.github.io/Codecraft/">
-    <meta property="og:type" content="website">
+    <!-- Kanonische URL -->
+    <link rel="canonical" href="https://bruckner-codecraft.com/">
 
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="Brückner Codecraft – Individuelle Softwareentwicklung & Lösungen nach Maß">
-    <meta property="twitter:description" content="Individuelle Softwarelösungen – von interaktiven UIs bis zu technischer Automatisierung.">
-    <meta name="twitter:image" content="https://mabrueckner.github.io/Codecraft/img/preview.png">
+    <!-- Hreflang (auf jeder Seite identisch und vollständig) -->
+    <link rel="alternate" hreflang="de"        href="https://bruckner-codecraft.com/">
+    <link rel="alternate" hreflang="en"        href="https://bruckner-codecraft.com/en/">
+    <link rel="alternate" hreflang="x-default" href="https://bruckner-codecraft.com/">
 
-    <link rel="canonical" href="https://mabrueckner.github.io/Codecraft/">
+    <!-- Favicons / Touch-Icons (kein 'alt' auf <link>!) -->
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/touch-icon-180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/touch-icon-152.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/touch-icon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76"   href="/img/touch-icon-76.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#0d6efd">
 
-    <link href="https://fonts.bunny.net/css?family=inter:400,700">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Brückner Codecraft">
+    <meta property="og:type"      content="website">
+    <meta property="og:locale"    content="de_DE">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:url"       content="https://bruckner-codecraft.com/">
+    <meta property="og:title"     content="Brückner Codecraft – Automation & .NET | Code trifft Maschine">
+    <meta property="og:description" content="Individuelle .NET- und SPS-Softwarelösungen für smarte Automatisierung aus Suhl. Code, der Maschinen zum Leben erweckt – präzise, innovativ, zuverlässig.">
+    <meta property="og:image"     content="https://bruckner-codecraft.com/img/preview.png">
+    <meta property="og:image:secure_url" content="https://bruckner-codecraft.com/img/preview.png">
+    <meta property="og:image:type"   content="image/png">
+    <meta property="og:image:width"  content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt"    content="Brückner Codecraft – Automation & .NET">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7.2.4/css/flag-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-        integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card"        content="summary_large_image">
+    <meta name="twitter:title"       content="Brückner Codecraft – Automation & .NET | Code trifft Maschine">
+    <meta name="twitter:description" content="Individuelle .NET- und SPS-Softwarelösungen für smarte Automatisierung aus Suhl. Code, der Maschinen zum Leben erweckt – präzise, innovativ, zuverlässig.">
+    <meta name="twitter:image"       content="https://bruckner-codecraft.com/img/preview.png">
+    <meta name="twitter:image:alt"   content="Brückner Codecraft – Automation & .NET">
 
-    <link href="css/colors.css" rel="stylesheet">
-    <link href="css/animations.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <!-- Performance: Preconnect/DNS-Prefetch für externe Ressourcen -->
+    <link rel="preconnect" href="https://fonts.bunny.net" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    
+    <!-- Preload für die wichtigsten kritischen Stylesheets (frühzeitiger Start) -->
+    <link rel="preload" as="style" href="/css/main.css">
+    <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <style>
+        /* Reset Basics, damit nichts „springt" bevor Bootstrap da ist */
+        *,*::before,*::after{box-sizing:border-box}
+        html{-webkit-text-size-adjust:100%;line-height:1.15}
+        body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+            font-size:1rem;line-height:1.5;color:#212529;background:#fff;
+            -webkit-font-smoothing:antialiased}
+        img,svg{max-width:100%;height:auto;display:block}
+        a{color:#0d6efd;text-decoration:none}
+        a:hover{text-decoration:underline}
+        /* Verhindert FOUC bei AOS-Animationen, bis aos.css geladen ist */
+        [data-aos]{opacity:1}
+    </style>
+
+    <!-- Render-blockierend: nur Bootstrap (Grid/Layout) + eigene CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/colors.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <!-- Webfont -->
+    <link rel="stylesheet"
+          href="https://fonts.bunny.net/css?family=inter:400,700&display=swap"
+          media="print" onload="this.media='all'">
+
+    <!-- Animationen (AOS + eigene) -->
+    <link rel="stylesheet" href="/css/animations.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" media="print" onload="this.media='all'">
+
+    <!-- Fallback ohne JavaScript: nur eigene async-CSS nachladen. -->
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.bunny.net/css?family=inter:400,700&display=swap">
+        <link rel="stylesheet" href="/css/animations.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    </noscript>
 
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Brückner Codecraft",
-        "url": "https://mabrueckner.github.io/Codecraft/",
-        "logo": "https://mabrueckner.github.io/Codecraft/img/logo.png",
-        "description": "Brückner Codecraft bietet individuelle Softwareentwicklung für unterschiedlichste Anwendungsbereiche – von Benutzeroberflächen bis zu technischer Automatisierung.",
-        "sameAs": [
-            "https://github.com/mabrueckner",
-            "https://www.linkedin.com/in/maik-brückner",
-            "https://facebook.com/profile.php?id=61573759767960"
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": "https://bruckner-codecraft.com/#website",
+                "url": "https://bruckner-codecraft.com/",
+                "name": "Brückner Codecraft",
+                "inLanguage": "de-DE",
+                "publisher": { "@id": "https://bruckner-codecraft.com/#organization" }
+            },
+            {
+                "@type": "AboutPage",
+                "@id": "https://bruckner-codecraft.com/#aboutpage",
+                "url": "https://bruckner-codecraft.com/#about",
+                "isPartOf": { "@id": "https://bruckner-codecraft.com/#website" },
+                "about": { "@id": "https://bruckner-codecraft.com/#maik-brueckner" },
+                "primaryImageOfPage": "https://bruckner-codecraft.com/img/me-256.webp"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://bruckner-codecraft.com/#webpage",
+                "url": "https://bruckner-codecraft.com/",
+                "name": "Brückner Codecraft – Automation & .NET",
+                "isPartOf": { "@id": "https://bruckner-codecraft.com/#website" },
+                "primaryImageOfPage": "https://bruckner-codecraft.com/img/preview.png",
+                "speakable": {
+                    "@type": "SpeakableSpecification",
+                    "cssSelector": ["#home-title", "#home-subtitle", "#about-title", "#services-title"]
+                }
+            },
+            {
+                "@type": "Organization",
+                "@id": "https://bruckner-codecraft.com/#organization",
+                "name": "Brückner Codecraft",
+                "url": "https://bruckner-codecraft.com/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://bruckner-codecraft.com/img/preview.png"
+                },
+                "email": "info@bruckner-codecraft.com",
+                "founder": { "@id": "https://bruckner-codecraft.com/#maik-brueckner" },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Friesenstraße 10",
+                    "postalCode": "98529",
+                    "addressLocality": "Suhl",
+                    "addressCountry": "DE"
+                },
+                "sameAs": [
+                    "https://github.com/mabrueckner",
+                    "https://www.linkedin.com/in/maik-br%C3%BCckner",
+                    "https://facebook.com/profile.php?id=61573759767960"
+                ]
+            },
+            {
+                "@type": "ProfessionalService",
+                "@id": "https://bruckner-codecraft.com/#business",
+                "name": "Brückner Codecraft",
+                "url": "https://bruckner-codecraft.com/",
+                "image": "https://bruckner-codecraft.com/img/preview.png",
+                "description": "Freiberufliche Software- und Automatisierungsentwicklung aus Suhl: individuelle .NET-Anwendungen, SPS-Programmierung (TIA Portal), Roboterintegration (ABB, KUKA, Stäubli) und Modernisierung von Legacy-Systemen.",
+                "telephone": "",
+                "email": "info@bruckner-codecraft.com",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Friesenstraße 10",
+                    "postalCode": "98529",
+                    "addressLocality": "Suhl",
+                    "addressRegion": "Thüringen",
+                    "addressCountry": "DE"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 50.6105,
+                    "longitude": 10.6947
+                },
+                "areaServed": [
+                    { "@type": "Country", "name": "Deutschland" },
+                    { "@type": "Country", "name": "Österreich" },
+                    { "@type": "Country", "name": "Schweiz" }
+                ],
+                "serviceType": [
+                    "Individuelle Softwareentwicklung",
+                    "Technologieberatung",
+                    "Erweiterungen & Komponentenentwicklung",
+                    "Modernisierung bestehender Anwendungen",
+                    "LabVIEW-Entwicklung",
+                    "Automatisierung & Robotik"
+                ],
+                "founder": { "@id": "https://bruckner-codecraft.com/#maik-brueckner" },
+                "sameAs": [
+                    "https://github.com/mabrueckner",
+                    "https://www.linkedin.com/in/maik-br%C3%BCckner",
+                    "https://facebook.com/profile.php?id=61573759767960"
+                ]
+            },
+            {
+                "@type": "Person",
+                "@id": "https://bruckner-codecraft.com/#maik-brueckner",
+                "name": "Maik Brückner",
+                "givenName": "Maik",
+                "familyName": "Brückner",
+                "jobTitle": "Full Stack Softwareentwickler & Automatisierungsingenieur",
+                "image": "https://bruckner-codecraft.com/img/me-256.webp",
+                "email": "maik.brueckner@brueckner-codecraft.com",
+                "url": "https://bruckner-codecraft.com/",
+                "worksFor": { "@id": "https://bruckner-codecraft.com/#organization" },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Friesenstraße 10",
+                    "postalCode": "98529",
+                    "addressLocality": "Suhl",
+                    "addressCountry": "DE"
+                },
+                "knowsAbout": [
+                    "C#",
+                    ".NET",
+                    ".NET Framework",
+                    "WPF",
+                    "Blazor",
+                    ".NET MAUI",
+                    "SQL",
+                    "LabVIEW",
+                    "SPS-Programmierung",
+                    "Siemens TIA Portal",
+                    "OPC UA",
+                    "ABB Robotik",
+                    "KUKA Robotik",
+                    "Stäubli Robotik",
+                    "Universal Robots",
+                    "Mikrocontroller-Programmierung in C",
+                    "HMI-Entwicklung",
+                    "ERP-Anbindung",
+                    "Industrie 4.0",
+                    "Sondermaschinenbau"
+                ],
+                "knowsLanguage": ["de", "en"],
+                "sameAs": [
+                    "https://github.com/mabrueckner",
+                    "https://www.linkedin.com/in/maik-br%C3%BCckner",
+                    "https://facebook.com/profile.php?id=61573759767960"
+                ]
+            },
+            {
+                "@type": "Service",
+                "@id": "https://bruckner-codecraft.com/#service-softwareentwicklung",
+                "name": "Individuelle Softwareentwicklung",
+                "serviceType": "Custom Software Development",
+                "provider": { "@id": "https://bruckner-codecraft.com/#business" },
+                "areaServed": { "@type": "Country", "name": "Deutschland" },
+                "description": "Entwicklung maßgeschneiderter Anwendungen mit C# / .NET, WPF, Blazor und MAUI – inklusive moderner UI/UX-Konzepte."
+            },
+            {
+                "@type": "Service",
+                "@id": "https://bruckner-codecraft.com/#service-technologieberatung",
+                "name": "Technologieberatung",
+                "serviceType": "Technology Consulting",
+                "provider": { "@id": "https://bruckner-codecraft.com/#business" },
+                "areaServed": { "@type": "Country", "name": "Deutschland" },
+                "description": "Analyse von Anforderungen, Beratung zu Architektur, Frameworks und Plattformen sowie Auswahl zukunftssicherer Technologien."
+            },
+            {
+                "@type": "Service",
+                "@id": "https://bruckner-codecraft.com/#service-erweiterungen",
+                "name": "Erweiterungen & Komponentenentwicklung",
+                "serviceType": "Software Component Development",
+                "provider": { "@id": "https://bruckner-codecraft.com/#business" },
+                "areaServed": { "@type": "Country", "name": "Deutschland" },
+                "description": "Entwicklung von .NET-Bibliotheken zur Integration in bestehende Systeme sowie spezialisierte LabVIEW-Erweiterungen."
+            },
+            {
+                "@type": "Service",
+                "@id": "https://bruckner-codecraft.com/#service-modernisierung",
+                "name": "Modernisierung bestehender Anwendungen",
+                "serviceType": "Legacy Modernization",
+                "provider": { "@id": "https://bruckner-codecraft.com/#business" },
+                "areaServed": { "@type": "Country", "name": "Deutschland" },
+                "description": "Migration von Legacy-Systemen auf moderne .NET-Standards, Performance-Optimierung und UI-Redesign."
+            },
+            {
+                "@type": "Service",
+                "@id": "https://bruckner-codecraft.com/#service-labview",
+                "name": "LabVIEW-Entwicklung",
+                "serviceType": "LabVIEW Development",
+                "provider": { "@id": "https://bruckner-codecraft.com/#business" },
+                "areaServed": { "@type": "Country", "name": "Deutschland" },
+                "description": "Komplettlösungen in LabVIEW – Entwicklung von Mess-, Prüf- und Automatisierungssystemen (in Vorbereitung)."
+            },
+            {
+                "@type": "Service",
+                "@id": "https://bruckner-codecraft.com/#service-automatisierung",
+                "name": "Automatisierung & Robotik",
+                "serviceType": "Industrial Automation & Robotics",
+                "provider": { "@id": "https://bruckner-codecraft.com/#business" },
+                "areaServed": { "@type": "Country", "name": "Deutschland" },
+                "description": "SPS-Programmierung mit Siemens TIA Portal, Roboterprogrammierung für ABB, Stäubli und KUKA sowie Integration in Industrie-4.0-Umgebungen."
+            },
+            {
+                "@type": "FAQPage",
+                "@id": "https://bruckner-codecraft.com/#faq",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Welche Technologien setzt Brückner Codecraft ein?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Schwerpunkte sind C# / .NET (WPF, Blazor, MAUI), SQL, LabVIEW, SPS-Programmierung mit Siemens TIA Portal sowie Roboterprogrammierung für ABB, KUKA und Stäubli. Ergänzend kommen OPC UA, Mikrocontroller in C und Anbindungen an ERP-Systeme zum Einsatz."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Arbeitet Brückner Codecraft remote?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ja. Aktuell werden bevorzugt Remote-Projekte umgesetzt, die flexibel neben einer Festanstellung realisiert werden können – als Zuarbeit oder als eigenständige Entwicklung."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Werden auch Legacy-Anwendungen modernisiert?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ja. Bestehende Anwendungen werden auf moderne .NET-Standards migriert, Performance optimiert und Oberflächen neu gestaltet, ohne den bestehenden Funktionsumfang zu verlieren."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Welche Roboterhersteller werden unterstützt?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Erfahrung besteht insbesondere mit ABB, KUKA und Stäubli sowie mit Universal Robots. Die Integration in Fertigungsprozesse und Industrie-4.0-Umgebungen ist Bestandteil der Leistung."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Werden auch SPS-Projekte mit TIA Portal umgesetzt?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ja. SPS-Programmierung mit Siemens TIA Portal gehört zum Kernangebot, von einzelnen Komponenten bis zur vollständigen Umsetzung ganzer Zellen inklusive HMI und Datenanbindung."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Wo ist Brückner Codecraft ansässig?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Der Sitz ist in Suhl, Thüringen (Friesenstraße 10, 98529 Suhl, Deutschland). Projekte werden deutschlandweit sowie remote in der DACH-Region umgesetzt."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Wer steckt hinter Brückner Codecraft?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Brückner Codecraft ist die freiberufliche Tätigkeit von Maik Brückner – Full-Stack-Entwickler mit über einem Jahrzehnt Erfahrung in industrieller Softwareentwicklung, Automatisierung und Robotik."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Wie erfolgt die Kontaktaufnahme?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Per E-Mail an info@bruckner-codecraft.com oder über das Kontaktformular auf bruckner-codecraft.com. Anfragen werden in der Regel kurzfristig beantwortet."
+                        }
+                    }
+                ]
+            }
         ]
     }
     </script>
@@ -60,7 +378,7 @@
         <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
             <!-- Logo -->
             <a class="navbar-brand d-flex align-items-center" href="#home">
-                <img id="logo" src="img/logo_h_de.svg" alt="Logo">
+                <img id="logo" fetchpriority="high" src="img/logo_h_de.svg" alt="Brückner Codecraft Logo">
             </a>
             <!-- Navmenu -->
             <nav id="navmenu" class="navmenu">
@@ -107,11 +425,25 @@
     <main>
         <!-- Home Section -->
         <section id="home" class="home section dark-background">
-            <img src="img/bg.png" alt="Backgroundimage" data-aos="fade-in">
+            <picture>
+                <source type="image/avif"
+                        srcset="img/bg-400.avif 400w, img/bg.avif 629w, img/bg-1258.avif 1258w"
+                        sizes="(max-width: 600px) 400px, (max-width: 1200px) 629px, 1258px">
+                <source type="image/webp"
+                        srcset="img/bg-400.webp 400w, img/bg.webp 629w, img/bg-1258.webp 1258w"
+                        sizes="(max-width: 600px) 400px, (max-width: 1200px) 629px, 1258px">
+                <img src="img/bg-400.webp"
+                     srcset="img/bg-400.webp 400w, img/bg.webp 629w, img/bg-1258.webp 1258w"
+                     sizes="(max-width: 600px) 400px, (max-width: 1200px) 629px, 1258px"
+                     width="629" height="354"
+                     fetchpriority="high"
+                     decoding="async"
+                     alt="Software Code Fragement - Backgroundimage">
+            </picture>
 
             <div class="container d-flex flex-column align-items-center justify-content-center text-center"
                 data-aos="fade-up" data-aos-delay="100">
-                <h2 id="home-title">Willkommen bei Brückner Codecraft!</h2>
+                <h1 id="home-title">Willkommen bei Brückner Codecraft!</h1>
                 <h3 id="home-subtitle">Kreative Softwarelösungen aus Suhl</h3>
                 <p><span class="typed" id="home-text"
                         data-typed-items="UI/UX Designer, Entwickler maßgeschneiderter Software, Automatisierungsexperte, Robotik-Enthusiast, Freelancer für Ihr Projekt"></span>
@@ -127,7 +459,7 @@
 
                         <div class="row justify-content-between gy-4">
                             <div class="col-lg-5">
-                                <img src="img/me.png" class="img-fluid" alt="Selfie">
+                                <img src="img/me-128.webp" srcset="img/me-128.webp 128w, img/me-256.webp 256w, img/me-512.webp 512w" sizes="(max-width: 600px) 128px, 256px" class="img-fluid" alt="Maik Brückner, Softwareentwickler und Automatisierungsingenieur aus Suhl">
                             </div>
                             <div class="col-lg-7 about-info">
                                 <p><strong>Name: </strong> <span>Maik Brückner</span></p>
@@ -138,6 +470,21 @@
 
                         <div class="skills-content skills-animation">
                             <h5>Skills</h5>
+                          
+                            <ul class="visually-hidden" aria-hidden="true">
+                            	<li>C# / .NET — Expert (95%)</li>
+                              	<li>.NET WPF — Advanced (85%)</li>
+                                <li>.NET Blazor — Advanced (75%)</li>
+                                <li>SQL — Expert (95%)</li>
+                                <li>Siemens TIA Portal — Expert (100%)</li>
+                                <li>ABB Robotik — Advanced (85%)</li>
+                                <li>KUKA Robotik — Advanced (75%)</li>
+                                <li>Stäubli Robotik — Expert (100%)</li>
+                                <li>HTML — Intermediate (55%)</li>
+                                <li>CSS — Advanced (75%)</li>
+                                <li>Adobe Photoshop — Advanced (85%)</li>
+                                <li>Adobe Illustrator — Advanced (85%)</li>
+                            </ul>
 
                             <div class="progress">
                                 <span class="skill"><span>.net C#</span> <i class="val">95%</i></span>
@@ -372,15 +719,6 @@
             </div>
         </section>
 
-        <!-- Resume Section -->
-        <!--section id="resume" class="section">
-            <div class="container section-title" data-aos="fade-up">
-                <h2 id="resume-title">Lebenslauf</h2>
-                <p id="resume-subtitle">Mein beruflicher Werdegang im Überblick</p>
-            </div>
-            <div id="resume-container" class="container" data-aos="fade-up"></div>
-        </section-->
-
         <!-- Projects Section -->
         <section id="projects" class="projects section secondary-background">
             <div id="projectContainer" class="container projects-text" data-aos="fade-up"></div>
@@ -426,21 +764,34 @@
                     <div class="row gy-4">
 
                         <div class="col-md-6">
-                            <input type="text" name="name" class="form-control" placeholder="Ihr Name" required="">
+                            <input type="text" name="name" class="form-control" placeholder="Ihr Name" required minlength="2"  maxlength="100">
                         </div>
 
                         <div class="col-md-6 ">
-                            <input type="email" class="form-control" name="email" placeholder="Ihre E-Mail" required="">
+                            <input type="email" class="form-control" name="email" placeholder="Ihre E-Mail" required maxlength="254">
                         </div>
 
                         <div class="col-md-12">
-                            <input type="text" class="form-control" name="subject" placeholder="Betreff" required="">
+                            <input type="text" class="form-control" name="subject" placeholder="Betreff" required minlength="2"  maxlength="200">
                         </div>
 
                         <div class="col-md-12">
                             <textarea class="form-control" name="message" rows="6" placeholder="Nachricht"
-                                required=""></textarea>
+                                required minlength="10" maxlength="5000"></textarea>
                         </div>
+                      
+                        <div style="position:absolute;left:-9999px" aria-hidden="true">
+                          <input type="text" name="website"    tabindex="-1" autocomplete="off">
+                          <input type="text" name="url"        tabindex="-1" autocomplete="off">
+                          <input type="text" name="company_hp" tabindex="-1" autocomplete="off">
+                        </div>
+                        <input type="hidden" name="hp_time" value="">
+                        <script>
+                            document.currentScript.previousElementSibling.value =
+                                Math.floor(Date.now() / 1000);
+                        </script>
+                      
+                      	<div class="cf-turnstile" data-sitekey="0x4AAAAAADdnyoAiCEQgKpJv" data-theme="auto"></div>
 
                         <div class="col-md-12 text-center">
                             <div class="loading" id="contact-loadingMessage">Laden</div>
@@ -486,26 +837,23 @@
         </section>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/typed.js/typed.umd.js"></script>
+    <script src="js/typedjs/typed.umd.js"></script>
     <script src="js/validate.js"></script>
     <script src="js/main.js"></script>
     <script src="js/project-loader.js"></script>
-    <script src="js/resume.js"></script>
     <script src="js/lang.js"></script>
-    <script src="https://kit.fontawesome.com/0b40067d86.js" crossorigin="anonymous"></script>
+  	<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 
     <footer class="footer d-flex justify-content-center align-items-center">
-        <a href="https://github.com/mabrueckner" target="_blank" class="footer-icon"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/maik-brückner" target="_blank" class="footer-icon"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://facebook.com/profile.php?id=61573759767960" target="_blank" class="footer-icon"><i class="fab fa-facebook-f"></i></a>
+        <!--span class="footer-text">&copy; 2025 Brückner Codecraft – Alle Rechte vorbehalten.</span-->
+        <a href="https://github.com/mabrueckner" target="_blank" class="footer-icon" aria-label="GitHub Profil von Maik Brückner"><i class="fab fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/maik-brückner" target="_blank" class="footer-icon" aria-label="LinkedIn Profil von Maik Brückner"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+        <a href="https://facebook.com/profile.php?id=61573759767960" target="_blank" class="footer-icon" aria-label="Facebook Profil von Maik Brückner"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
     </footer>
 </body>
 

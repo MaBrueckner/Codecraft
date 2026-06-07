@@ -1,5 +1,76 @@
+# robots.txt für https://bruckner-codecraft.com/
+# ----------------------------------------------------------------
+# Allgemeine Regeln gelten für alle Crawler.
+# Spezifische User-Agents darunter bestätigen die Erlaubnis
+# (KI-/Suchmaschinen-Bots), damit diese im Zweifelsfall nicht
+# durch eigene strengere Defaults bremsen.
+
 User-agent: *
-Crawl-delay: 10
+Allow: /
+Disallow: /tools/
+Disallow: /forms/
+Disallow: /Chat.md
+Disallow: /*.json$
+Disallow: /*.ps1$
+
+# --- Klassische Suchmaschinen-Crawler (KI-Trainings-Opt-in) ---
+User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://mabrueckner.github.io/Codecraft/sitemap.xml
+User-agent: Applebot-Extended
+Allow: /
+
+# --- Generative KI / Antwort-Engines ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+# Sitemap (vollständige URL inkl. TLD ist Pflicht)
+Sitemap: https://bruckner-codecraft.com/sitemap.xml

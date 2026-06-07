@@ -1,43 +1,76 @@
 (function () {
     "use strict";
 
-    document.querySelector('.php-email-form').addEventListener('submit', function (e) {
+    const form = document.querySelector('.php-email-form');
+    if (!form) return;
+
+    form.addEventListener('submit', function (e) {
         e.preventDefault();
 
-        let form = this;
-        let action = form.getAttribute('action');
-        let formData = new FormData(form);
+        const action      = form.getAttribute('action');
+        const formData    = new FormData(form);
+        const loading     = form.querySelector('.loading');
+        const errorMsg    = form.querySelector('.error-message');
+        const sentMsg     = form.querySelector('.sent-message');
 
-        let loading = form.querySelector('.loading');
-        let errorMessage = form.querySelector('.error-message');
-        let sentMessage = form.querySelector('.sent-message');
+        try {
+            if (window.turnstile && typeof window.turnstile.getResponse === 'function') {
+                const token = window.turnstile.getResponse();
+                if (token) formData.set('cf-turnstile-response', token);
+            }
+        } catch (_) { /* ignore */ }
 
-        loading.style.display = 'block';
-        errorMessage.style.display = 'none';
-        sentMessage.style.display = 'none';
+        if (loading)  loading.style.display  = 'block';
+        if (errorMsg) errorMsg.style.display = 'none';
+        if (sentMsg)  sentMsg.style.display  = 'none';
 
         fetch(action, {
             method: 'POST',
-            body: formData
+            body: formData,
+            headers: { 'Accept': 'text/plain' },
+            credentials: 'same-origin',
+            cache: 'no-store'
         })
-        .then(response => {
-            loading.style.display = 'none';
-            if (response.ok) {
-                sentMessage.style.display = 'block';
+        .then(async response => {
+            if (loading) loading.style.display = 'none';
+
+            const body = (response.status === 204) ? '' : (await response.text()).trim();
+            const isRealSuccess =
+                response.status === 200 &&
+                /vielen dank|verschickt|thank you|sent/i.test(body);
+
+            if (isRealSuccess) {
+                if (sentMsg) {
+                    sentMsg.textContent = body || 'Ihre Nachricht wurde verschickt. Vielen Dank!';
+                    sentMsg.style.display = 'block';
+                }
                 form.reset();
+                const hp = form.querySelector('input[name="hp_time"]');
+                if (hp) hp.value = String(Math.floor(Date.now() / 1000));
+                try { window.turnstile && window.turnstile.reset(); } catch (_) {}
+
                 setTimeout(() => {
-                    sentMessage.style.display = 'none';
+                    if (sentMsg) sentMsg.style.display = 'none';
                 }, 10000);
-            } else {
-                return response.text().then(text => { throw new Error(text) });
+                return;
             }
+
+            // Alles andere -> Fehler anzeigen
+            const msg = body
+                ? body
+                : (response.status === 204
+                    ? 'Anfrage abgelehnt (Bot-Schutz hat angeschlagen). Bitte Seite neu laden.'
+                    : `Fehler ${response.status}.`);
+            throw new Error(msg);
         })
         .catch(error => {
-            loading.style.display = 'none';
-            errorMessage.style.display = 'block';
-            errorMessage.innerHTML = error.message;
+            if (loading)  loading.style.display  = 'none';
+            if (errorMsg) {
+                errorMsg.style.display = 'block';
+                errorMsg.textContent   = error.message || 'Unbekannter Fehler.';
+            }
             setTimeout(() => {
-                errorMessage.style.display = 'none';
+                if (errorMsg) errorMsg.style.display = 'none';
             }, 10000);
         });
     });

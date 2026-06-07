@@ -19,8 +19,8 @@
     "project-datagrabber": "DataGrabber"
   },
   "head": {
-    "title": "Bruckner Codecraft – Custom Software Development & Tailored Solutions",
-    "description": "Bruckner Codecraft develops tailored software solutions – from technical automation to user interfaces and custom applications for various industries.",
+    "title": "Bruckner Codecraft – Automation & .NET | Code meets Machine",
+    "description": "Bruckner Codecraft develops individual software solutions in .NET and PLC for smart automation. Precision, innovation, and code that brings machines to life.",
     "keywords": "Software development, Codecraft, graphical programming, LabVIEW, WPF, .net, C#, TIA Portal, KUKA, Stäubli, Staubli, ABB, robots, Universal Robot, UR, Blazor",
     "author": "Maik Brückner"
   },

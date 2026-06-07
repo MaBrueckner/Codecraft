@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt F&#252;llstand&#252;berwachung – Prozessdatenerfassung zur Qualit&#228;tssicherung | Brückner Codecraft</title>
+    <meta name="description" content="Ziel war es, zehn Anlagen zur Bef&#252;llung von Thermometern so umzur&#252;sten, dass qualit&#228;tsrelevante Messdaten wie Vakuum und Temperatur automatisch erfasst werden.">
+    <meta name="author" content="Maik Brückner">
+
+    <link rel="canonical" href="https://bruckner-codecraft.com/de/fuellstand.html">
+    <link rel="alternate" hreflang="de"  href="https://bruckner-codecraft.com/de/fuellstand.html">
+    <link rel="alternate" hreflang="en"  href="https://bruckner-codecraft.com/en/fuellstand.html">
+    <link rel="alternate" hreflang="x-default"        href="https://bruckner-codecraft.com/de/fuellstand.html">
+
+    <meta property="og:type"             content="article">
+    <meta property="og:title"            content="Projekt F&#252;llstand&#252;berwachung – Prozessdatenerfassung zur Qualit&#228;tssicherung">
+    <meta property="og:description"      content="Ziel war es, zehn Anlagen zur Bef&#252;llung von Thermometern so umzur&#252;sten, dass qualit&#228;tsrelevante Messdaten wie Vakuum und Temperatur automatisch erfasst werden.">
+    <meta property="og:url"              content="https://bruckner-codecraft.com/de/fuellstand.html">
+    <meta property="og:image"            content="https://bruckner-codecraft.com/img/preview.png">
+    <meta property="og:locale"           content="de_DE">
+    <meta property="og:locale:alternate" content="en_US">
+
+    <meta name="twitter:card"        content="summary_large_image">
+    <meta name="twitter:title"       content="Projekt F&#252;llstand&#252;berwachung – Prozessdatenerfassung zur Qualit&#228;tssicherung">
+    <meta name="twitter:description" content="Ziel war es, zehn Anlagen zur Bef&#252;llung von Thermometern so umzur&#252;sten, dass qualit&#228;tsrelevante Messdaten wie Vakuum und Temperatur automatisch erfasst werden.">
+    <meta name="twitter:image"       content="https://bruckner-codecraft.com/img/preview.png">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/touch-icon-180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/touch-icon-152.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/touch-icon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76"   href="/img/touch-icon-76.png">
+
+    <link href="https://fonts.bunny.net/css?family=inter:400,700">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@7.2.4/css/flag-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <link href="/css/colors.css"     rel="stylesheet">
+    <link href="/css/animations.css" rel="stylesheet">
+    <link href="/css/main.css"       rel="stylesheet">
+
+    <script type="application/ld+json">{"inLanguage":"de","url":"https://bruckner-codecraft.com/de/fuellstand.html","description":"Ziel war es, zehn Anlagen zur Befüllung von Thermometern so umzurüsten, dass qualitätsrelevante Messdaten wie Vakuum und Temperatur automatisch erfasst werden.","@type":"CreativeWork","headline":"Projekt Füllstandüberwachung – Prozessdatenerfassung zur Qualitätssicherung","creator":{"@id":"https://bruckner-codecraft.com/#maik-brueckner"},"@context":"https://schema.org","name":"Projekt Füllstandüberwachung – Prozessdatenerfassung zur Qualitätssicherung","isPartOf":{"@id":"https://bruckner-codecraft.com/#website"},"@id":"https://bruckner-codecraft.com/de/fuellstand.html#project","mainEntityOfPage":"https://bruckner-codecraft.com/de/fuellstand.html"}</script>
+
+    <script>
+        // Make sure that returning to the SPA restores the correct project + language.
+        // Cookies are set as soon as possible so any later navigation (anchor click,
+        // back button, manual address change) carries the right state.
+        (function () {
+            var maxAge = 60 * 60 * 24 * 365;
+            document.cookie = 'lang=de; path=/; max-age=' + maxAge + '; SameSite=Lax';
+            document.cookie = 'project=project-fuellstand; path=/; max-age=' + maxAge + '; SameSite=Lax';
+        })();
+    </script>
+</head>
+
+<body class="project-page">
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+            <a class="navbar-brand d-flex align-items-center" href="/">
+                <img id="logo" fetchpriority="high" src="/img/logo_h_de.svg" alt="Brückner Codecraft Logo">
+            </a>
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="/#home"     id="nav-home">Startseite</a></li>
+                    <li><a href="/#about"    id="nav-about">Über mich</a></li>
+                    <li><a href="/#services" id="nav-services">Leistungen</a></li>
+                    <li class="dropdown">
+                        <a href="/#projects"><span id="nav-projects">Projekte</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="matrixkit.html">Projekt Matrixkit LED-Scheinwerfer – Automatisierte Prüfung von Primäroptiken</a></li>
+                            <li><a href="datagrabber.html">Projekt DataGrabber – Neuentwicklung mit moderner Technologie</a></li>
+                            <li><a href="matrixkitv2.html">Projekt Matrixkit LED-Scheinwerfer V2 – Automatisierte Prüfung von Primäroptiken</a></li>
+                            <li><a href="biled.html">Projekt BiLED – Automatisierte Justage für LED-Scheinwerfer</a></li>
+                            <li><a href="grainlab.html">Projekt Grainlab – Automatisierte Weizensortierung mit KI</a></li>
+                            <li><a href="pressenumbau.html">Projekt Pressenumbau – Modernisierung einer 30 Jahre alten Produktionsanlage</a></li>
+                            <li><a href="fuellstand.html" class="active" aria-current="page">Projekt Füllstandüberwachung – Prozessdatenerfassung zur Qualitätssicherung</a></li>
+                            <li><a href="zeiterfassung.html">Projekt Zeiterfassung – Umstieg auf moderne Technologie mit bestehender Datenbank</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/#contact" id="nav_contact">Kontakt</a></li>
+                    <li><a href="/#notice"  id="nav_notice">Impressum</a></li>
+                    <li class="dropdown">
+                        <a><i class="fas fa-globe" aria-hidden="true"></i> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li style="min-width: 120px;">
+                                <a href="/en/fuellstand.html" hreflang="en">
+                                    <span class="fi fi-gb"></span> English</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article class="container py-5 projects-text" itemscope itemtype="https://schema.org/CreativeWork">
+            <nav aria-label="Breadcrumb" class="mb-4">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Startseite</a></li>
+                    <li class="breadcrumb-item"><a href="/#projects">Projekte</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Projekt F&#252;llstand&#252;berwachung – Prozessdatenerfassung zur Qualit&#228;tssicherung</li>
+                </ol>
+            </nav>
+
+            <header class="mb-4">
+                <h1 itemprop="name">Projekt F&#252;llstand&#252;berwachung – Prozessdatenerfassung zur Qualit&#228;tssicherung</h1>
+            </header>
+
+            <section itemprop="articleBody">
+                <p>Ziel war es, zehn Anlagen zur Befüllung von Thermometern so umzurüsten, dass qualitätsrelevante Messdaten wie Vakuum und Temperatur automatisch erfasst werden.</p>
+                <p>Die Sensoren wurden über EtherCAT-Baugruppen direkt mit dem PC verbunden – ohne SPS. Eine Hilscher-Karte im PC ermöglichte den direkten Zugriff auf das Netzwerk.</p>
+                <p>Ich plante und setzte die gesamte Systemarchitektur um, inklusive einer PostgreSQL-Datenbank zur Speicherung der Messwerte. Da LabVIEW nicht direkt mit PostgreSQL kommunizieren kann, entwickelte ich eine Wrapper-DLL in C# (.NET).</p>
+                <p>Das LabVIEW-Frontend zeigt die Messdaten in Diagrammen und steuert die Datenbankanbindung. Ein automatisiertes Datenmanagement sorgt für:</p>
+                <ul>
+                    <li>2 Jahre Nutzdatenbank mit automatischer Löschung</li>
+                    <li>10 Jahre Backup-Datenbank mit automatischer Löschung</li>
+                    <li>Tägliches CSV-Backup auf Netzwerklaufwerk</li>
+                </ul>
+            </section>
+
+            <aside class="mt-5 p-4 rounded shadow-sm" style="background:#f6f6f6">
+                <h2 class="h5 mb-2">Mehr Projekte ansehen</h2>
+                <p class="mb-3">Eine interaktive Übersicht aller Projekte finden Sie auf der Hauptseite.</p>
+                <a href="/#projects" class="btn btn-primary">
+                    <i class="bi bi-arrow-left me-1"></i> Zur Projektübersicht
+                </a>
+            </aside>
+        </article>
+    </main>
+
+    <footer class="footer d-flex justify-content-center align-items-center">
+        <a href="https://github.com/mabrueckner" target="_blank" rel="noopener" class="footer-icon" aria-label="GitHub Profil von Maik Brückner"><i class="fab fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/maik-br%C3%BCckner" target="_blank" rel="noopener" class="footer-icon" aria-label="LinkedIn Profil von Maik Brückner"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+        <a href="https://facebook.com/profile.php?id=61573759767960" target="_blank" rel="noopener" class="footer-icon" aria-label="Facebook Profil von Maik Brückner"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script>
+        // Lightweight nav helpers (mobile toggle + dropdown chevron) replicated from
+        // js/main.js so the static pages do not need the full SPA bundle.
+        (function () {
+            var toggleBtn = document.querySelector('.mobile-nav-toggle');
+            if (toggleBtn) {
+                toggleBtn.addEventListener('click', function () {
+                    document.body.classList.toggle('mobile-nav-active');
+                    toggleBtn.classList.toggle('bi-list');
+                    toggleBtn.classList.toggle('bi-x');
+                });
+            }
+            document.querySelectorAll('.navmenu .toggle-dropdown').forEach(function (el) {
+                el.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    this.parentNode.classList.toggle('active');
+                    this.parentNode.nextElementSibling.classList.toggle('dropdown-active');
+                    e.stopImmediatePropagation();
+                });
+            });
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 100) document.body.classList.add('scrolled');
+                else document.body.classList.remove('scrolled');
+            });
+        })();
+    </script>
+</body>
+</html>
